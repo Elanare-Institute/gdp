@@ -1,0 +1,6 @@
+# Phase 0 robustness check: isolate the reserve-flight artifact in bloc A.
+u: 0.05
+simultaneous: false
+reserve_flight_mode: capped
+reserve_flight_floor: 0.3
+universal_split: null

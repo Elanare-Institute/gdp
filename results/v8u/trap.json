@@ -1,0 +1,6501 @@
+{
+ "archetype_positions": {
+  "A": [
+   1.0,
+   1.0
+  ],
+  "B": [
+   0.9,
+   0.75
+  ],
+  "C": [
+   0.4,
+   0.5
+  ],
+  "D": [
+   -0.0,
+   -0.0
+  ]
+ },
+ "floor_shares": [
+  0.65,
+  0.75,
+  0.85,
+  0.95
+ ],
+ "linkages": [
+  "growth_linked",
+  "cpi_linked",
+  "fixed_nominal"
+ ],
+ "scans": {
+  "0.65|growth_linked": {
+   "floor_share": 0.65,
+   "linkage": "growth_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20200260330578512,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.10793193388429752,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 4.264462809917355e-05,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.11399490909090909,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0032283388429752064,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0061447851239669424,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.0,
+      "0.1": 0.01
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.03
+     },
+     "trapped": false
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": false
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.03,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 0,
+   "trapped_by_tolerance": {
+    "0": 0,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 6,
+   "no_fixed_point_count": 0
+  },
+  "0.65|cpi_linked": {
+   "floor_share": 0.65,
+   "linkage": "cpi_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20016710743801655,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.09396492561983472,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.051181958677685956,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.00040091735537190084,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.03,
+      "0.1": 0.04
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 0,
+   "trapped_by_tolerance": {
+    "0": 0,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 0
+  },
+  "0.65|fixed_nominal": {
+   "floor_share": 0.65,
+   "linkage": "fixed_nominal",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.2512026115702479,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.14732822314049587,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0036998429752066117,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.08881599173553718,
+     "already_constrained": true,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0,
+     "u_needed_fixed_point": 0.0,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 1.5e-05,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 0,
+   "trapped_by_tolerance": {
+    "0": 0,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 0
+  },
+  "0.75|growth_linked": {
+   "floor_share": 0.75,
+   "linkage": "growth_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20200260330578512,
+     "already_constrained": true,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.10793193388429752,
+     "already_constrained": true,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 4.264462809917355e-05,
+     "already_constrained": true,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.11399490909090909,
+     "already_constrained": true,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0032283388429752064,
+     "already_constrained": true,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0061447851239669424,
+     "already_constrained": true,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.0,
+      "0.1": 0.01
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.03,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 3,
+   "trapped_by_tolerance": {
+    "0": 3,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 6,
+   "no_fixed_point_count": 0
+  },
+  "0.75|cpi_linked": {
+   "floor_share": 0.75,
+   "linkage": "cpi_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20016710743801655,
+     "already_constrained": true,
+     "u_needed_static": 0.004255,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.09396492561983472,
+     "already_constrained": true,
+     "u_needed_static": 0.001489,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.051181958677685956,
+     "already_constrained": true,
+     "u_needed_static": 0.002584,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.00040091735537190084,
+     "already_constrained": true,
+     "u_needed_static": 0.001079,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.03,
+      "0.1": 0.04
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001292,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001141,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001057,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0016,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001372,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001193,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001084,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.001022,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 1,
+   "trapped_by_tolerance": {
+    "0": 1,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 0
+  },
+  "0.75|fixed_nominal": {
+   "floor_share": 0.75,
+   "linkage": "fixed_nominal",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.2512026115702479,
+     "already_constrained": true,
+     "u_needed_static": 0.007816,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.14732822314049587,
+     "already_constrained": true,
+     "u_needed_static": 0.005283,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0036998429752066117,
+     "already_constrained": true,
+     "u_needed_static": 0.003796,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.004342,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.005436,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.08881599173553718,
+     "already_constrained": true,
+     "u_needed_static": 0.006045,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.004294,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.004488,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.00497,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.005988,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.005275,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": true
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.005128,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.005187,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.005585,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.006534,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.006516,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.00622,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.006158,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.006439,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.007264,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.007981,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.007467,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.007261,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.007382,
+     "u_needed_fixed_point": 0.01,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.00805,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 2,
+   "trapped_by_tolerance": {
+    "0": 2,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 0
+  },
+  "0.85|growth_linked": {
+   "floor_share": 0.85,
+   "linkage": "growth_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20200260330578512,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.10793193388429752,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 4.264462809917355e-05,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.11399490909090909,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0032283388429752064,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0061447851239669424,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.0,
+      "0.1": 0.01
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.03,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": true
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 5,
+   "trapped_by_tolerance": {
+    "0": 5,
+    "0.05": 3,
+    "0.1": 0
+   },
+   "already_constrained_count": 6,
+   "no_fixed_point_count": 0
+  },
+  "0.85|cpi_linked": {
+   "floor_share": 0.85,
+   "linkage": "cpi_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20016710743801655,
+     "already_constrained": true,
+     "u_needed_static": 0.014807,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.09396492561983472,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.051181958677685956,
+     "already_constrained": true,
+     "u_needed_static": 0.012761,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.00040091735537190084,
+     "already_constrained": true,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.03,
+      "0.1": 0.04
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.011982,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.011825,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0118,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 3,
+   "trapped_by_tolerance": {
+    "0": 3,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 0
+  },
+  "0.85|fixed_nominal": {
+   "floor_share": 0.85,
+   "linkage": "fixed_nominal",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.2512026115702479,
+     "already_constrained": true,
+     "u_needed_static": 0.017883,
+     "u_needed_fixed_point": 0.08,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.14732822314049587,
+     "already_constrained": true,
+     "u_needed_static": 0.015012,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0036998429752066117,
+     "already_constrained": true,
+     "u_needed_static": 0.013342,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.013679,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014365,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.08881599173553718,
+     "already_constrained": true,
+     "u_needed_static": 0.016157,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.013811,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.013902,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014161,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014835,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014758,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": true
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014552,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014506,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.014721,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.015295,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.015824,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.015468,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.015315,
+     "u_needed_fixed_point": 0.02,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.015393,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.015884,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.017108,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.016543,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.016231,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.016173,
+     "u_needed_fixed_point": 0.04,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.016517,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    }
+   },
+   "trapped_count": 9,
+   "trapped_by_tolerance": {
+    "0": 9,
+    "0.05": 5,
+    "0.1": 5
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 5
+  },
+  "0.95|growth_linked": {
+   "floor_share": 0.95,
+   "linkage": "growth_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20200260330578512,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.10793193388429752,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 4.264462809917355e-05,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.11399490909090909,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0032283388429752064,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0061447851239669424,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.0,
+      "0.1": 0.01
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": true
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.03,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.01,
+      "0.1": 0.02
+     },
+     "trapped": true
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.02,
+      "0.1": 0.03
+     },
+     "trapped": true
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 7,
+   "trapped_by_tolerance": {
+    "0": 7,
+    "0.05": 5,
+    "0.1": 2
+   },
+   "already_constrained_count": 6,
+   "no_fixed_point_count": 0
+  },
+  "0.95|cpi_linked": {
+   "floor_share": 0.95,
+   "linkage": "cpi_linked",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.20016710743801655,
+     "already_constrained": true,
+     "u_needed_static": 0.025455,
+     "u_needed_fixed_point": 0.04,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.09396492561983472,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.051181958677685956,
+     "already_constrained": true,
+     "u_needed_static": 0.022938,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.00040091735537190084,
+     "already_constrained": true,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.03,
+      "0.1": 0.04
+     },
+     "trapped": false
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.04,
+      "0.1": 0.05
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.04,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.02,
+      "0.05": 0.05,
+      "0.1": 0.06
+     },
+     "trapped": true
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.05,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.0226,
+     "u_needed_fixed_point": 0.03,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    }
+   },
+   "trapped_count": 4,
+   "trapped_by_tolerance": {
+    "0": 4,
+    "0.05": 0,
+    "0.1": 0
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 0
+  },
+  "0.95|fixed_nominal": {
+   "floor_share": 0.95,
+   "linkage": "fixed_nominal",
+   "cells": {
+    "c0.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.2512026115702479,
+     "already_constrained": true,
+     "u_needed_static": 0.029725,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": null,
+      "0.05": null,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.14732822314049587,
+     "already_constrained": true,
+     "u_needed_static": 0.024754,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0036998429752066117,
+     "already_constrained": true,
+     "u_needed_static": 0.023259,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.023408,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.023793,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.08881599173553718,
+     "already_constrained": true,
+     "u_needed_static": 0.026696,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": null,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.25_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.023662,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.50": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.023669,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s0.75": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.023801,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.25_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.024548,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.50_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.024524,
+     "u_needed_fixed_point": 0.05,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.0,
+      "0.05": 0.06,
+      "0.1": 0.06
+     },
+     "trapped": true
+    },
+    "c0.50_s0.25": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.024287,
+     "u_needed_fixed_point": 0.05,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.50_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.024176,
+     "u_needed_fixed_point": 0.05,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.50_s0.75": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.024309,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.50_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.025362,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.75_s0.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.026236,
+     "u_needed_fixed_point": 0.06,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.01,
+      "0.05": 0.06,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.75_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.025614,
+     "u_needed_fixed_point": 0.05,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.025347,
+     "u_needed_fixed_point": 0.06,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c0.75_s0.75": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.025523,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c0.75_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.026418,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c1.00_s0.00": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.028475,
+     "u_needed_fixed_point": 0.06,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.06,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.25": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.027512,
+     "u_needed_fixed_point": 0.06,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.50": {
+     "trapped_by_tolerance": {
+      "0": false,
+      "0.05": false,
+      "0.1": false
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.026988,
+     "u_needed_fixed_point": 0.06,
+     "no_fixed_point": false,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": false
+    },
+    "c1.00_s0.75": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "reserve": false,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.026886,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    },
+    "c1.00_s1.00": {
+     "trapped_by_tolerance": {
+      "0": true,
+      "0.05": true,
+      "0.1": true
+     },
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "reserve": true,
+     "baseline_rationing": 0.0,
+     "already_constrained": false,
+     "u_needed_static": 0.027562,
+     "u_needed_fixed_point": null,
+     "no_fixed_point": true,
+     "u_affordable": {
+      "0": 0.08,
+      "0.05": 0.08,
+      "0.1": 0.08
+     },
+     "trapped": true
+    }
+   },
+   "trapped_count": 15,
+   "trapped_by_tolerance": {
+    "0": 15,
+    "0.05": 12,
+    "0.1": 12
+   },
+   "already_constrained_count": 4,
+   "no_fixed_point_count": 16
+  }
+ }
+}

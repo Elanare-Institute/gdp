@@ -1,0 +1,9 @@
+# Baseline configuration (v6-identical defaults).
+# Parsed by a minimal stdlib reader in run_all.py — flat "key: value" only.
+u: 0.05
+simultaneous: false
+
+# v7 flags. These defaults reproduce sim_v6.py bit-for-bit.
+reserve_flight_mode: v6      # v6 | off | capped
+reserve_flight_floor: 0.3
+universal_split: null        # null -> use each bloc's c_pop_share

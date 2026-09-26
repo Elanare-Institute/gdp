@@ -1,0 +1,146 @@
+{
+ "four_way": {
+  "welch_level": {
+   "t": 11.234655443781328,
+   "df": 80.02381784536705
+  },
+  "welch_slope": {
+   "t": 1.4160231337027498,
+   "df": 65.93570189170082
+  },
+  "selection": {
+   "n_runs": 50,
+   "slope_mean": 0.029429869361259867,
+   "slope_sd": 0.10593595604356709,
+   "slope_share_positive": 0.6,
+   "mean_clt": 0.10964531957720788,
+   "mean_clt_sd": 0.02474322525321494
+  },
+  "neutral": {
+   "n_runs": 50,
+   "slope_mean": 0.006401770556069619,
+   "slope_sd": 0.04473303563666377,
+   "slope_share_positive": 0.56,
+   "mean_clt": 0.06385184148368243,
+   "mean_clt_sd": 0.014781701578715556
+  },
+  "groups": {
+   "A": {
+    "selection": 0.08139751168438361,
+    "neutral": 0.06322353302659418,
+    "diff": 0.018173978657789427,
+    "t": 1.278417489909732,
+    "n": 50
+   },
+   "B": {
+    "selection": 0.10342641486300919,
+    "neutral": 0.0633213448088694,
+    "diff": 0.04010507005413976,
+    "t": 4.972223607842424,
+    "n": 50
+   },
+   "C": {
+    "selection": 0.10774015585742645,
+    "neutral": 0.06228237259286251,
+    "diff": 0.04545778326456395,
+    "t": 7.494147051599999,
+    "n": 50
+   },
+   "D": {
+    "selection": 0.11487158415465001,
+    "neutral": 0.06511687353297256,
+    "diff": 0.04975471062167745,
+    "t": 12.461915898520283,
+    "n": 50
+   }
+  },
+  "spread_selection": {
+   "n_runs": 50,
+   "share_spread": 1.0,
+   "final_adopter_share": 0.3825806451612903,
+   "final_adopter_sd": 0.13180206881020126,
+   "share_reaching_quarter": 0.9,
+   "median_years_to_quarter": 35.0
+  },
+  "spread_neutral": {
+   "n_runs": 50,
+   "share_spread": 0.62,
+   "final_adopter_share": 0.17290322580645165,
+   "final_adopter_sd": 0.11339776951747396,
+   "share_reaching_quarter": 0.54,
+   "median_years_to_quarter": 30.0
+  }
+ },
+ "four_way_symmetric": {
+  "welch_level": {
+   "t": 9.827331271557744,
+   "df": 78.25143436465848
+  },
+  "welch_slope": {
+   "t": 1.3702495452110859,
+   "df": 61.49615099232531
+  },
+  "selection": {
+   "n_runs": 50,
+   "slope_mean": 0.03305538820649921,
+   "slope_sd": 0.15161018543273996,
+   "slope_share_positive": 0.62,
+   "mean_clt": 0.11052267899175151,
+   "mean_clt_sd": 0.02720758566854118
+  },
+  "neutral": {
+   "n_runs": 50,
+   "slope_mean": 0.0018294129224325478,
+   "slope_sd": 0.05459130579460276,
+   "slope_share_positive": 0.52,
+   "mean_clt": 0.06689445924671453,
+   "mean_clt_sd": 0.01565871872084429
+  },
+  "groups": {
+   "A": {
+    "selection": 0.11897432241498908,
+    "neutral": 0.07140504021041272,
+    "diff": 0.047569282204576346,
+    "t": 2.2068262950469637,
+    "n": 50
+   },
+   "B": {
+    "selection": 0.09984284042670458,
+    "neutral": 0.06767298152171569,
+    "diff": 0.032169858904988885,
+    "t": 4.435395952883514,
+    "n": 50
+   },
+   "C": {
+    "selection": 0.10253015519056125,
+    "neutral": 0.06468838992534766,
+    "diff": 0.03784176526521358,
+    "t": 6.620835413232468,
+    "n": 50
+   },
+   "D": {
+    "selection": 0.11884753148601153,
+    "neutral": 0.0678049593050455,
+    "diff": 0.051042572180966014,
+    "t": 11.815758427318263,
+    "n": 50
+   }
+  },
+  "spread_selection": {
+   "n_runs": 50,
+   "share_spread": 0.98,
+   "final_adopter_share": 0.38967741935483863,
+   "final_adopter_sd": 0.1418636481090297,
+   "share_reaching_quarter": 0.92,
+   "median_years_to_quarter": 30.0
+  },
+  "spread_neutral": {
+   "n_runs": 50,
+   "share_spread": 0.68,
+   "final_adopter_share": 0.20193548387096777,
+   "final_adopter_sd": 0.13791203210393163,
+   "share_reaching_quarter": 0.6,
+   "median_years_to_quarter": 30.0
+  }
+ }
+}

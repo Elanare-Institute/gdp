@@ -1,0 +1,94 @@
+{
+ "problem": {
+  "num_vars": 16,
+  "names": [
+   "m_F",
+   "m_G",
+   "m_H",
+   "eps_supply",
+   "land_share",
+   "land_discount",
+   "omega0",
+   "omega_sens",
+   "mpc_u",
+   "bop_coeff",
+   "export_switch",
+   "sub_H",
+   "beta_H",
+   "u",
+   "clt_domestic_sourcing",
+   "sourcing_cost_kappa"
+  ],
+  "bounds": [
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0
+   ]
+  ],
+  "sample_scaled": true
+ },
+ "N": 512,
+ "calc_second_order": false,
+ "n_design": 9216,
+ "n_feasible": 9216
+}

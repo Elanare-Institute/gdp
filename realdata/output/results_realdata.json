@@ -1,0 +1,146 @@
+{
+  "base_year": 1971,
+  "end_year": 2024,
+  "wage_1971_nominal": 3.627,
+  "wage_2024_nominal": 30.12,
+  "index_values_2024": {
+    "nominal": 830.6,
+    "cpi_real": 107.2,
+    "commodity_ppi": 124.3,
+    "housing": 50.0,
+    "sp500": 15.0,
+    "gold": 14.2
+  },
+  "decline_pct": {
+    "nominal": 730.6,
+    "cpi_real": 7.2,
+    "commodity_ppi": 24.3,
+    "housing": -50.0,
+    "sp500": -85.0,
+    "gold": -85.8
+  },
+  "sp500_total_return": {
+    "index": 4.9,
+    "end_year": 2023,
+    "note": "Dividend-reinvested equity. The specification assumed this was only available from 1988; the Shiller data carries dividends back to 1871. Truncated at 2023 because dividends are published with a lag."
+  },
+  "robustness": {
+    "gold_1971_base_index_2024": 14.2,
+    "gold_1975_base_index_2024": 42.8,
+    "gold_1980_base_index_2024": 112.0,
+    "gold_1985_base_index_2024": 45.9
+  },
+  "housing_measures_1987_base": {
+    "median_price": 82.3,
+    "case_shiller": 67.9
+  },
+  "international_gold_wages": {
+    "base_year": 2000,
+    "countries": {
+      "USA": {
+        "label": "United States",
+        "index_last": 25.1,
+        "last_year": 2024,
+        "anchor_year": 2000,
+        "on_common_base": true,
+        "change_pct": -74.9,
+        "coverage": [
+          1971,
+          2024
+        ],
+        "caveat": ""
+      },
+      "JPN": {
+        "label": "Japan",
+        "index_last": 8.5,
+        "last_year": 2024,
+        "anchor_year": 2000,
+        "on_common_base": true,
+        "change_pct": -91.5,
+        "coverage": [
+          1990,
+          2024
+        ],
+        "caveat": "OECD coverage begins in 1990, at the peak of the asset bubble. Anchoring there maximizes the apparent decline; 1971-1989 is unavailable without a registered API key."
+      },
+      "BRA": {
+        "label": "Brazil",
+        "index_last": 31.0,
+        "last_year": 2024,
+        "anchor_year": 2000,
+        "on_common_base": true,
+        "change_pct": -69.0,
+        "coverage": [
+          1995,
+          2024
+        ],
+        "caveat": "The nominal local-currency series spans the 1994 Real redenomination; gold denomination cancels the currency switch in principle, but continuity is checked visually."
+      },
+      "IND": {
+        "label": "India",
+        "index_last": 39.8,
+        "last_year": 2024,
+        "anchor_year": 2005,
+        "on_common_base": false,
+        "change_pct": -60.2,
+        "coverage": [
+          2005,
+          2024
+        ],
+        "caveat": "Roughly 11 observations with survey-methodology breaks (NSS to PLFS). Plotted as markers rather than a line."
+      }
+    },
+    "omitted": {
+      "CHN": "Omitted. ILOSTAT appears to cover 1971-2022, but that span mixes sub-sector series. Restricting to a clean total-economy series (ECO=*_TOTAL, CUR_TYPE_LCU, SEX_T) leaves only about 10 observations ending in 1997, so the 2000-2024 target window is empty. Per the specification, countries whose data cannot be obtained are not forced in."
+    }
+  },
+  "data_sources": {
+    "wage": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AHETPI&cosd=1960-01-01&coed=2025-12-31",
+      "note": "Average hourly earnings, production and nonsupervisory employees."
+    },
+    "cpi": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&cosd=1960-01-01&coed=2025-12-31",
+      "note": "CPI-U, all items, seasonally adjusted."
+    },
+    "housing_median": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MSPUS&cosd=1963-01-01&coed=2025-12-31",
+      "note": "Median sales price of houses sold; quarterly."
+    },
+    "housing_cs": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CSUSHPINSA&cosd=1987-01-01&coed=2025-12-31",
+      "note": "Case-Shiller national home price index; monthly from 1987."
+    },
+    "commodities": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PPIACO&cosd=1960-01-01&coed=2025-12-31",
+      "note": "PPI all commodities \u2014 the control series for consumption goods."
+    },
+    "gold": {
+      "url": "https://raw.githubusercontent.com/datasets/gold-prices/main/data/monthly.csv",
+      "note": "REPLACEMENT for FRED GOLDPMGBD228NLBM, which is discontinued. Monthly USD/troy oz, 1833-present. Verified: 1971 mean $40.92, matching the specification's stated ~$41."
+    },
+    "sp500": {
+      "url": "https://raw.githubusercontent.com/datasets/s-and-p-500/main/data/data.csv",
+      "note": "REPLACEMENT for FRED SP500, which retains only 10 years. This is the Shiller dataset as plain CSV, monthly 1871-present, and it carries a Dividend column that permits a total-return series. Verified: 1971-01 = 93.49, matching the specification's ~92."
+    }
+  },
+  "spec_deviations": [
+    "FRED GOLDPMGBD228NLBM is discontinued (returns HTML); replaced with the datahub gold-prices CSV mirror. Verified: 1971 mean $40.92 against the specification's stated ~$41.",
+    "FRED SP500 retains only a rolling 10-year window and cannot reach 1971; replaced with the Shiller dataset CSV mirror. Verified: 1971-01 = 93.49 against the specification's stated ~92.",
+    "The specification's JSON template gives wage_1971_nominal = 3.45, which is the January value; the 1971 annual mean used here is 3.63.",
+    "The specification expects the gold decline to be base-year independent. It is not: a 1980 base reverses the sign. Three of four bases still decline.",
+    "The specification expects the two housing measures to agree; they agree on direction but differ by about 14 index points in 2024.",
+    "China is omitted from the international comparison: its clean total-economy series ends in 1997, leaving the 2000-2024 window empty."
+  ],
+  "figure_captions": {
+    "fig4a": "US average hourly earnings deflated by six different denominators, each indexed to 100 in 1971 and drawn on one logarithmic axis. Nominal wages rise more than eightfold and CPI-deflated wages are roughly flat, but wages measured against wealth-storing assets collapse. The commodity series is the control: wages outpace consumption goods, so the collapse is specific to assets.",
+    "fig4b": "Gold-denominated wages indexed from four different base years. Three of the four show declines of 54-86 percent. The 1980 base reverses the sign because 1980 was the Hunt-brothers gold spike; anchoring on a bubble peak flatters the wage. The direction of the result is robust, but its magnitude is not base-year independent.",
+    "fig4c": "Housing-denominated wages under both available house-price measures, 1987 onward. The two agree that wages lost roughly a fifth to a third of their housing purchasing power but differ in level by about 14 index points, because Case-Shiller is a quality-adjusted repeat-sales index while the median sale price moves with the mix of houses transacted.",
+    "fig4d": "Gold-denominated wages for the countries with obtainable data, indexed to 100 in 2000. Japan falls furthest, though its 1990 start at the bubble peak exaggerates the magnitude. India is plotted as markers because its series has fewer than a dozen observations across a survey-methodology break."
+  },
+  "key_findings": [
+    "Nominal wages rose to 831 while CPI-deflated wages reached only 107 \u2014 roughly flat across 53 years.",
+    "Against wealth-storing assets wages collapsed: gold 14, equities 15, housing 50.",
+    "Against consumption goods they did not: the commodity index is 124, so wages outpaced commodities. This is the paper's central distinction, and the data support it."
+  ]
+}

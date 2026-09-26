@@ -1,0 +1,381 @@
+{
+ "phase3": {
+  "n_blocs": 12,
+  "source": "cheap_levels.jsonl",
+  "cash_t": {
+   "leak_level_mean": 0.2149620361552734,
+   "leak_level_median": 0.23156079000324847,
+   "leak_rate_mean": 0.12273174734467936,
+   "fiscal_mean": 1.7084263781721118
+  },
+  "clt": {
+   "leak_level_mean": 0.2587819786897561,
+   "leak_level_median": 0.2736436326661499,
+   "leak_rate_mean": 0.36909691742636463,
+   "fiscal_mean": 0.6772660410913963
+  },
+  "cash_cheap": {
+   "leak_level_mean": 0.08582532617289451,
+   "leak_level_median": 0.09493085774763729,
+   "leak_rate_mean": 0.12220845428429661,
+   "fiscal_mean": 0.6772660410913963
+  },
+  "clt_vs_cash_t": {
+   "level_mean_diff": 0.04381994253448268,
+   "level_share_positive": 1.0,
+   "rate_mean_diff": 0.2463651700816853,
+   "rate_share_positive": 1.0
+  },
+  "clt_vs_cash_cheap": {
+   "level_mean_diff": 0.1729566525168616,
+   "level_share_positive": 1.0,
+   "rate_mean_diff": 0.24688846314206803,
+   "rate_share_positive": 1.0
+  }
+ },
+ "phase1_split": {
+  "u": 0.05,
+  "ubi": {
+   "A (reserve)": {
+    "import_per_fiscal": 0.059,
+    "foreign_assets_per_fiscal": 0.042,
+    "goods_share_of_leak": 0.5841584158415841,
+    "leak_abs": 0.505795,
+    "fiscal_pct_gdp": 5.0,
+    "import_level_pct_gdp": 0.29546440594059403
+   },
+   "B (non-reserve adv.)": {
+    "import_per_fiscal": 0.097,
+    "foreign_assets_per_fiscal": 0.258,
+    "goods_share_of_leak": 0.27323943661971833,
+    "leak_abs": 1.772957,
+    "fiscal_pct_gdp": 5.0,
+    "import_level_pct_gdp": 0.4844417718309859
+   },
+   "C (emerging)": {
+    "import_per_fiscal": 0.128,
+    "foreign_assets_per_fiscal": 0.13,
+    "goods_share_of_leak": 0.4980544747081712,
+    "leak_abs": 1.286606,
+    "fiscal_pct_gdp": 5.0,
+    "import_level_pct_gdp": 0.6407998754863813
+   },
+   "D (developing)": {
+    "import_per_fiscal": 0.168,
+    "foreign_assets_per_fiscal": 0.102,
+    "goods_share_of_leak": 0.6222222222222222,
+    "leak_abs": 1.349812,
+    "fiscal_pct_gdp": 5.0,
+    "import_level_pct_gdp": 0.8398830222222222
+   }
+  },
+  "cash_t": {
+   "A (reserve)": {
+    "import_per_fiscal": 0.09,
+    "foreign_assets_per_fiscal": 0.017,
+    "goods_share_of_leak": 0.8333333333333333,
+    "leak_abs": 0.161928,
+    "fiscal_pct_gdp": 1.5,
+    "import_level_pct_gdp": 0.13493999999999998
+   },
+   "B (non-reserve adv.)": {
+    "import_per_fiscal": 0.147,
+    "foreign_assets_per_fiscal": 0.057,
+    "goods_share_of_leak": 0.7170731707317073,
+    "leak_abs": 0.307181,
+    "fiscal_pct_gdp": 1.5,
+    "import_level_pct_gdp": 0.22027125365853656
+   },
+   "C (emerging)": {
+    "import_per_fiscal": 0.184,
+    "foreign_assets_per_fiscal": 0.062,
+    "goods_share_of_leak": 0.7449392712550608,
+    "leak_abs": 0.493182,
+    "fiscal_pct_gdp": 2.0,
+    "import_level_pct_gdp": 0.3673906396761134
+   },
+   "D (developing)": {
+    "import_per_fiscal": 0.232,
+    "foreign_assets_per_fiscal": 0.057,
+    "goods_share_of_leak": 0.8055555555555557,
+    "leak_abs": 0.720691,
+    "fiscal_pct_gdp": 2.5,
+    "import_level_pct_gdp": 0.580556638888889
+   }
+  },
+  "voucher": {
+   "A (reserve)": {
+    "import_per_fiscal": 0.09,
+    "foreign_assets_per_fiscal": 0.018,
+    "goods_share_of_leak": 0.8333333333333333,
+    "leak_abs": 0.158414,
+    "fiscal_pct_gdp": 1.467,
+    "import_level_pct_gdp": 0.13201166666666667
+   },
+   "B (non-reserve adv.)": {
+    "import_per_fiscal": 0.148,
+    "foreign_assets_per_fiscal": 0.058,
+    "goods_share_of_leak": 0.7219512195121951,
+    "leak_abs": 0.312456,
+    "fiscal_pct_gdp": 1.524,
+    "import_level_pct_gdp": 0.22557799024390243
+   },
+   "C (emerging)": {
+    "import_per_fiscal": 0.184,
+    "foreign_assets_per_fiscal": 0.062,
+    "goods_share_of_leak": 0.7449392712550608,
+    "leak_abs": 0.496721,
+    "fiscal_pct_gdp": 2.014,
+    "import_level_pct_gdp": 0.37002697975708504
+   },
+   "D (developing)": {
+    "import_per_fiscal": 0.232,
+    "foreign_assets_per_fiscal": 0.057,
+    "goods_share_of_leak": 0.8055555555555557,
+    "leak_abs": 0.726154,
+    "fiscal_pct_gdp": 2.519,
+    "import_level_pct_gdp": 0.5849573888888889
+   }
+  },
+  "clt": {
+   "A (reserve)": {
+    "import_per_fiscal": 0.161,
+    "foreign_assets_per_fiscal": -0.036,
+    "goods_share_of_leak": 1.288,
+    "leak_abs": 0.053123,
+    "fiscal_pct_gdp": 0.423,
+    "import_level_pct_gdp": 0.068422424
+   },
+   "B (non-reserve adv.)": {
+    "import_per_fiscal": 0.258,
+    "foreign_assets_per_fiscal": -0.111,
+    "goods_share_of_leak": 1.7551020408163267,
+    "leak_abs": 0.062102,
+    "fiscal_pct_gdp": 0.423,
+    "import_level_pct_gdp": 0.10899534693877552
+   },
+   "C (emerging)": {
+    "import_per_fiscal": 0.369,
+    "foreign_assets_per_fiscal": -0.155,
+    "goods_share_of_leak": 1.716279069767442,
+    "leak_abs": 0.128537,
+    "fiscal_pct_gdp": 0.599,
+    "import_level_pct_gdp": 0.2206053627906977
+   },
+   "D (developing)": {
+    "import_per_fiscal": 0.52,
+    "foreign_assets_per_fiscal": -0.145,
+    "goods_share_of_leak": 1.3866666666666667,
+    "leak_abs": 0.311509,
+    "fiscal_pct_gdp": 0.831,
+    "import_level_pct_gdp": 0.4319591466666666
+   }
+  }
+ },
+ "orderings": {
+  "A (reserve)": {
+   "bloc": "A (reserve)",
+   "by_leak_per_fiscal": [
+    "ubi",
+    "cash_t",
+    "voucher",
+    "clt"
+   ],
+   "by_leak_abs": [
+    "clt",
+    "voucher",
+    "cash_t",
+    "ubi"
+   ],
+   "by_import_level": [
+    "clt",
+    "voucher",
+    "cash_t",
+    "ubi"
+   ],
+   "values": {
+    "ubi": {
+     "import_per_fiscal": 0.059,
+     "leak_abs": 0.505795,
+     "import_level_pct_gdp": 0.29546440594059403,
+     "goods_share_of_leak": 0.5841584158415841,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "import_per_fiscal": 0.09,
+     "leak_abs": 0.161928,
+     "import_level_pct_gdp": 0.13493999999999998,
+     "goods_share_of_leak": 0.8333333333333333,
+     "fiscal_pct_gdp": 1.5
+    },
+    "voucher": {
+     "import_per_fiscal": 0.09,
+     "leak_abs": 0.158414,
+     "import_level_pct_gdp": 0.13201166666666667,
+     "goods_share_of_leak": 0.8333333333333333,
+     "fiscal_pct_gdp": 1.467
+    },
+    "clt": {
+     "import_per_fiscal": 0.161,
+     "leak_abs": 0.053123,
+     "import_level_pct_gdp": 0.068422424,
+     "goods_share_of_leak": 1.288,
+     "fiscal_pct_gdp": 0.423
+    }
+   }
+  },
+  "B (non-reserve adv.)": {
+   "bloc": "B (non-reserve adv.)",
+   "by_leak_per_fiscal": [
+    "ubi",
+    "cash_t",
+    "voucher",
+    "clt"
+   ],
+   "by_leak_abs": [
+    "clt",
+    "cash_t",
+    "voucher",
+    "ubi"
+   ],
+   "by_import_level": [
+    "clt",
+    "cash_t",
+    "voucher",
+    "ubi"
+   ],
+   "values": {
+    "ubi": {
+     "import_per_fiscal": 0.097,
+     "leak_abs": 1.772957,
+     "import_level_pct_gdp": 0.4844417718309859,
+     "goods_share_of_leak": 0.27323943661971833,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "import_per_fiscal": 0.147,
+     "leak_abs": 0.307181,
+     "import_level_pct_gdp": 0.22027125365853656,
+     "goods_share_of_leak": 0.7170731707317073,
+     "fiscal_pct_gdp": 1.5
+    },
+    "voucher": {
+     "import_per_fiscal": 0.148,
+     "leak_abs": 0.312456,
+     "import_level_pct_gdp": 0.22557799024390243,
+     "goods_share_of_leak": 0.7219512195121951,
+     "fiscal_pct_gdp": 1.524
+    },
+    "clt": {
+     "import_per_fiscal": 0.258,
+     "leak_abs": 0.062102,
+     "import_level_pct_gdp": 0.10899534693877552,
+     "goods_share_of_leak": 1.7551020408163267,
+     "fiscal_pct_gdp": 0.423
+    }
+   }
+  },
+  "C (emerging)": {
+   "bloc": "C (emerging)",
+   "by_leak_per_fiscal": [
+    "ubi",
+    "cash_t",
+    "voucher",
+    "clt"
+   ],
+   "by_leak_abs": [
+    "clt",
+    "cash_t",
+    "voucher",
+    "ubi"
+   ],
+   "by_import_level": [
+    "clt",
+    "cash_t",
+    "voucher",
+    "ubi"
+   ],
+   "values": {
+    "ubi": {
+     "import_per_fiscal": 0.128,
+     "leak_abs": 1.286606,
+     "import_level_pct_gdp": 0.6407998754863813,
+     "goods_share_of_leak": 0.4980544747081712,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "import_per_fiscal": 0.184,
+     "leak_abs": 0.493182,
+     "import_level_pct_gdp": 0.3673906396761134,
+     "goods_share_of_leak": 0.7449392712550608,
+     "fiscal_pct_gdp": 2.0
+    },
+    "voucher": {
+     "import_per_fiscal": 0.184,
+     "leak_abs": 0.496721,
+     "import_level_pct_gdp": 0.37002697975708504,
+     "goods_share_of_leak": 0.7449392712550608,
+     "fiscal_pct_gdp": 2.014
+    },
+    "clt": {
+     "import_per_fiscal": 0.369,
+     "leak_abs": 0.128537,
+     "import_level_pct_gdp": 0.2206053627906977,
+     "goods_share_of_leak": 1.716279069767442,
+     "fiscal_pct_gdp": 0.599
+    }
+   }
+  },
+  "D (developing)": {
+   "bloc": "D (developing)",
+   "by_leak_per_fiscal": [
+    "ubi",
+    "cash_t",
+    "voucher",
+    "clt"
+   ],
+   "by_leak_abs": [
+    "clt",
+    "cash_t",
+    "voucher",
+    "ubi"
+   ],
+   "by_import_level": [
+    "clt",
+    "cash_t",
+    "voucher",
+    "ubi"
+   ],
+   "values": {
+    "ubi": {
+     "import_per_fiscal": 0.168,
+     "leak_abs": 1.349812,
+     "import_level_pct_gdp": 0.8398830222222222,
+     "goods_share_of_leak": 0.6222222222222222,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "import_per_fiscal": 0.232,
+     "leak_abs": 0.720691,
+     "import_level_pct_gdp": 0.580556638888889,
+     "goods_share_of_leak": 0.8055555555555557,
+     "fiscal_pct_gdp": 2.5
+    },
+    "voucher": {
+     "import_per_fiscal": 0.232,
+     "leak_abs": 0.726154,
+     "import_level_pct_gdp": 0.5849573888888889,
+     "goods_share_of_leak": 0.8055555555555557,
+     "fiscal_pct_gdp": 2.519
+    },
+    "clt": {
+     "import_per_fiscal": 0.52,
+     "leak_abs": 0.311509,
+     "import_level_pct_gdp": 0.4319591466666666,
+     "goods_share_of_leak": 1.3866666666666667,
+     "fiscal_pct_gdp": 0.831
+    }
+   }
+  }
+ }
+}

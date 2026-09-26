@@ -1,0 +1,768 @@
+{
+ "calibration": {
+  "A": {
+   "ubi": 0.05,
+   "_U": -3.668083679527192,
+   "_fiscal_ubi": 0.05,
+   "cash_t": 0.015000000000000027,
+   "_fiscal_cash_t": 0.015000000000000029,
+   "voucher": 0.015000000000000027,
+   "_fiscal_voucher": 0.015000000000000029,
+   "clt": 0.005228043754885578,
+   "_fiscal_clt": 0.004051733910036323
+  },
+  "B": {
+   "ubi": 0.05,
+   "_U": -3.955765751978973,
+   "_fiscal_ubi": 0.05,
+   "cash_t": 0.014999999999999996,
+   "_fiscal_cash_t": 0.014999999999999996,
+   "voucher": 0.014999999999999996,
+   "_fiscal_voucher": 0.014999999999999996,
+   "clt": 0.005228043754885574,
+   "_fiscal_clt": 0.0041824350039084595
+  },
+  "C": {
+   "ubi": 0.05,
+   "_U": -4.245913052262891,
+   "_fiscal_ubi": 0.05,
+   "cash_t": 0.019999999999999976,
+   "_fiscal_cash_t": 0.019999999999999976,
+   "voucher": 0.019999999999999976,
+   "_fiscal_voucher": 0.019999999999999976,
+   "clt": 0.007822678417327124,
+   "_fiscal_clt": 0.006453709694294878
+  },
+  "D": {
+   "ubi": 0.05,
+   "_U": -4.931153344520867,
+   "_fiscal_ubi": 0.05000000000000001,
+   "cash_t": 0.024999999999999974,
+   "_fiscal_cash_t": 0.024999999999999974,
+   "voucher": 0.024999999999999974,
+   "_fiscal_voucher": 0.024999999999999974,
+   "clt": 0.010711668943546391,
+   "_fiscal_clt": 0.009104918602014431
+  }
+ },
+ "runs": {
+  "welfare:none": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 0,
+     "bloc_quarters": 0,
+     "total_onsets": 0
+    }
+   },
+   "leakage": {},
+   "final": {
+    "A (reserve)": {
+     "debt": 0.873,
+     "e": 0.989,
+     "pi": 0.024,
+     "Y": 1.8
+    },
+    "B (non-reserve adv.)": {
+     "debt": 0.733,
+     "e": 1.028,
+     "pi": 0.027,
+     "Y": 1.432
+    },
+    "C (emerging)": {
+     "debt": 0.337,
+     "e": 1.004,
+     "pi": 0.023,
+     "Y": 1.139
+    },
+    "D (developing)": {
+     "debt": 0.349,
+     "e": 0.978,
+     "pi": 0.024,
+     "Y": 0.436
+    }
+   }
+  },
+  "welfare:ubi": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 1,
+     "duration_q": 48,
+     "severity": 10.368,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 1,
+     "duration_q": 28,
+     "severity": 3.424,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 2,
+     "bloc_quarters": 76,
+     "total_onsets": 2
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.059,
+     "foreign_assets_per_fiscal": 0.042,
+     "external_leak_per_fiscal": 0.101,
+     "rent_capture_per_fiscal": 0.143,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 0.506
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.097,
+     "foreign_assets_per_fiscal": 0.258,
+     "external_leak_per_fiscal": 0.355,
+     "rent_capture_per_fiscal": 0.145,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 1.773
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.128,
+     "foreign_assets_per_fiscal": 0.13,
+     "external_leak_per_fiscal": 0.257,
+     "rent_capture_per_fiscal": 0.184,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 1.287
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.168,
+     "foreign_assets_per_fiscal": 0.102,
+     "external_leak_per_fiscal": 0.27,
+     "rent_capture_per_fiscal": 0.222,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 1.35
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 1.928,
+     "e": 0.05,
+     "pi": 0.06,
+     "Y": 2.12
+    },
+    "B (non-reserve adv.)": {
+     "debt": 2.664,
+     "e": 3.071,
+     "pi": 0.149,
+     "Y": 1.252
+    },
+    "C (emerging)": {
+     "debt": 1.153,
+     "e": 1.428,
+     "pi": 0.073,
+     "Y": 1.161
+    },
+    "D (developing)": {
+     "debt": 0.996,
+     "e": 1.28,
+     "pi": 0.065,
+     "Y": 0.443
+    }
+   }
+  },
+  "welfare:cash_t": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 1,
+     "duration_q": 7,
+     "severity": 0.404,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 1,
+     "bloc_quarters": 7,
+     "total_onsets": 1
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.09,
+     "foreign_assets_per_fiscal": 0.017,
+     "external_leak_per_fiscal": 0.108,
+     "rent_capture_per_fiscal": 0.478,
+     "fiscal_pct_gdp": 1.5,
+     "external_leak_pct_gdp": 0.162
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.147,
+     "foreign_assets_per_fiscal": 0.057,
+     "external_leak_per_fiscal": 0.205,
+     "rent_capture_per_fiscal": 0.479,
+     "fiscal_pct_gdp": 1.5,
+     "external_leak_pct_gdp": 0.307
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.184,
+     "foreign_assets_per_fiscal": 0.062,
+     "external_leak_per_fiscal": 0.247,
+     "rent_capture_per_fiscal": 0.459,
+     "fiscal_pct_gdp": 2.0,
+     "external_leak_pct_gdp": 0.493
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.232,
+     "foreign_assets_per_fiscal": 0.057,
+     "external_leak_per_fiscal": 0.288,
+     "rent_capture_per_fiscal": 0.443,
+     "fiscal_pct_gdp": 2.5,
+     "external_leak_pct_gdp": 0.721
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 1.182,
+     "e": 0.171,
+     "pi": 0.044,
+     "Y": 1.897
+    },
+    "B (non-reserve adv.)": {
+     "debt": 1.029,
+     "e": 1.189,
+     "pi": 0.049,
+     "Y": 1.454
+    },
+    "C (emerging)": {
+     "debt": 0.606,
+     "e": 1.067,
+     "pi": 0.046,
+     "Y": 1.16
+    },
+    "D (developing)": {
+     "debt": 0.63,
+     "e": 1.073,
+     "pi": 0.048,
+     "Y": 0.443
+    }
+   }
+  },
+  "welfare:voucher": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 1,
+     "duration_q": 8,
+     "severity": 0.476,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 1,
+     "bloc_quarters": 8,
+     "total_onsets": 1
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.09,
+     "foreign_assets_per_fiscal": 0.018,
+     "external_leak_per_fiscal": 0.108,
+     "rent_capture_per_fiscal": 0.478,
+     "fiscal_pct_gdp": 1.467,
+     "external_leak_pct_gdp": 0.158
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.148,
+     "foreign_assets_per_fiscal": 0.058,
+     "external_leak_per_fiscal": 0.205,
+     "rent_capture_per_fiscal": 0.479,
+     "fiscal_pct_gdp": 1.524,
+     "external_leak_pct_gdp": 0.312
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.184,
+     "foreign_assets_per_fiscal": 0.062,
+     "external_leak_per_fiscal": 0.247,
+     "rent_capture_per_fiscal": 0.459,
+     "fiscal_pct_gdp": 2.014,
+     "external_leak_pct_gdp": 0.497
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.232,
+     "foreign_assets_per_fiscal": 0.057,
+     "external_leak_per_fiscal": 0.288,
+     "rent_capture_per_fiscal": 0.443,
+     "fiscal_pct_gdp": 2.519,
+     "external_leak_pct_gdp": 0.726
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 1.177,
+     "e": 0.158,
+     "pi": 0.044,
+     "Y": 1.897
+    },
+    "B (non-reserve adv.)": {
+     "debt": 1.034,
+     "e": 1.193,
+     "pi": 0.049,
+     "Y": 1.454
+    },
+    "C (emerging)": {
+     "debt": 0.608,
+     "e": 1.067,
+     "pi": 0.046,
+     "Y": 1.16
+    },
+    "D (developing)": {
+     "debt": 0.632,
+     "e": 1.074,
+     "pi": 0.048,
+     "Y": 0.443
+    }
+   }
+  },
+  "welfare:clt": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 0,
+     "bloc_quarters": 0,
+     "total_onsets": 0
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.161,
+     "foreign_assets_per_fiscal": -0.036,
+     "external_leak_per_fiscal": 0.125,
+     "rent_capture_per_fiscal": -1.293,
+     "fiscal_pct_gdp": 0.423,
+     "external_leak_pct_gdp": 0.053
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.258,
+     "foreign_assets_per_fiscal": -0.111,
+     "external_leak_per_fiscal": 0.147,
+     "rent_capture_per_fiscal": -1.286,
+     "fiscal_pct_gdp": 0.423,
+     "external_leak_pct_gdp": 0.062
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.369,
+     "foreign_assets_per_fiscal": -0.155,
+     "external_leak_per_fiscal": 0.215,
+     "rent_capture_per_fiscal": -1.31,
+     "fiscal_pct_gdp": 0.599,
+     "external_leak_pct_gdp": 0.129
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.52,
+     "foreign_assets_per_fiscal": -0.145,
+     "external_leak_per_fiscal": 0.375,
+     "rent_capture_per_fiscal": -1.25,
+     "fiscal_pct_gdp": 0.831,
+     "external_leak_pct_gdp": 0.312
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 0.974,
+     "e": 0.74,
+     "pi": 0.041,
+     "Y": 1.849
+    },
+    "B (non-reserve adv.)": {
+     "debt": 0.824,
+     "e": 1.056,
+     "pi": 0.04,
+     "Y": 1.452
+    },
+    "C (emerging)": {
+     "debt": 0.425,
+     "e": 1.017,
+     "pi": 0.043,
+     "Y": 1.158
+    },
+    "D (developing)": {
+     "debt": 0.452,
+     "e": 1.023,
+     "pi": 0.045,
+     "Y": 0.443
+    }
+   }
+  },
+  "cost:cash_t": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 1,
+     "duration_q": 50,
+     "severity": 10.925,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 1,
+     "duration_q": 28,
+     "severity": 3.749,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 2,
+     "bloc_quarters": 78,
+     "total_onsets": 2
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.091,
+     "foreign_assets_per_fiscal": 0.026,
+     "external_leak_per_fiscal": 0.117,
+     "rent_capture_per_fiscal": 0.469,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 0.584
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.148,
+     "foreign_assets_per_fiscal": 0.146,
+     "external_leak_per_fiscal": 0.294,
+     "rent_capture_per_fiscal": 0.473,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 1.472
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.185,
+     "foreign_assets_per_fiscal": 0.078,
+     "external_leak_per_fiscal": 0.263,
+     "rent_capture_per_fiscal": 0.454,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 1.315
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.232,
+     "foreign_assets_per_fiscal": 0.064,
+     "external_leak_per_fiscal": 0.296,
+     "rent_capture_per_fiscal": 0.44,
+     "fiscal_pct_gdp": 5.0,
+     "external_leak_pct_gdp": 1.479
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 2.01,
+     "e": 0.05,
+     "pi": 0.079,
+     "Y": 2.175
+    },
+    "B (non-reserve adv.)": {
+     "debt": 2.777,
+     "e": 3.093,
+     "pi": 0.168,
+     "Y": 1.264
+    },
+    "C (emerging)": {
+     "debt": 1.22,
+     "e": 1.494,
+     "pi": 0.09,
+     "Y": 1.173
+    },
+    "D (developing)": {
+     "debt": 1.046,
+     "e": 1.342,
+     "pi": 0.077,
+     "Y": 0.446
+    }
+   }
+  },
+  "cost:voucher": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 1,
+     "duration_q": 50,
+     "severity": 10.855,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 1,
+     "duration_q": 30,
+     "severity": 4.641,
+     "insolvent_year": null
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 2,
+     "bloc_quarters": 80,
+     "total_onsets": 2
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.091,
+     "foreign_assets_per_fiscal": 0.024,
+     "external_leak_per_fiscal": 0.115,
+     "rent_capture_per_fiscal": 0.47,
+     "fiscal_pct_gdp": 4.734,
+     "external_leak_pct_gdp": 0.547
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.148,
+     "foreign_assets_per_fiscal": 0.156,
+     "external_leak_per_fiscal": 0.304,
+     "rent_capture_per_fiscal": 0.473,
+     "fiscal_pct_gdp": 5.446,
+     "external_leak_pct_gdp": 1.657
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.185,
+     "foreign_assets_per_fiscal": 0.08,
+     "external_leak_per_fiscal": 0.265,
+     "rent_capture_per_fiscal": 0.454,
+     "fiscal_pct_gdp": 5.183,
+     "external_leak_pct_gdp": 1.374
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.232,
+     "foreign_assets_per_fiscal": 0.065,
+     "external_leak_per_fiscal": 0.297,
+     "rent_capture_per_fiscal": 0.44,
+     "fiscal_pct_gdp": 5.22,
+     "external_leak_pct_gdp": 1.549
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 1.954,
+     "e": 0.05,
+     "pi": 0.075,
+     "Y": 2.226
+    },
+    "B (non-reserve adv.)": {
+     "debt": 2.99,
+     "e": 3.268,
+     "pi": 0.183,
+     "Y": 1.244
+    },
+    "C (emerging)": {
+     "debt": 1.265,
+     "e": 1.529,
+     "pi": 0.094,
+     "Y": 1.174
+    },
+    "D (developing)": {
+     "debt": 1.083,
+     "e": 1.363,
+     "pi": 0.08,
+     "Y": 0.446
+    }
+   }
+  },
+  "cost:clt": {
+   "crisis": {
+    "A (reserve)": {
+     "onsets": 1,
+     "duration_q": 54,
+     "severity": 14.035,
+     "insolvent_year": null
+    },
+    "B (non-reserve adv.)": {
+     "onsets": 1,
+     "duration_q": 27,
+     "severity": 5.032,
+     "insolvent_year": 28.25
+    },
+    "C (emerging)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "D (developing)": {
+     "onsets": 0,
+     "duration_q": 0,
+     "severity": 0.0,
+     "insolvent_year": null
+    },
+    "_system": {
+     "max_breadth": 2,
+     "bloc_quarters": 87,
+     "total_onsets": 2
+    }
+   },
+   "leakage": {
+    "A (reserve)": {
+     "import_per_fiscal": 0.096,
+     "foreign_assets_per_fiscal": -0.002,
+     "external_leak_per_fiscal": 0.094,
+     "rent_capture_per_fiscal": -0.553,
+     "fiscal_pct_gdp": 6.431,
+     "external_leak_pct_gdp": 0.603
+    },
+    "B (non-reserve adv.)": {
+     "import_per_fiscal": 0.153,
+     "foreign_assets_per_fiscal": -0.014,
+     "external_leak_per_fiscal": 0.139,
+     "rent_capture_per_fiscal": -0.537,
+     "fiscal_pct_gdp": 6.127,
+     "external_leak_pct_gdp": 0.852
+    },
+    "C (emerging)": {
+     "import_per_fiscal": 0.272,
+     "foreign_assets_per_fiscal": -0.102,
+     "external_leak_per_fiscal": 0.17,
+     "rent_capture_per_fiscal": -0.772,
+     "fiscal_pct_gdp": 4.987,
+     "external_leak_pct_gdp": 0.845
+    },
+    "D (developing)": {
+     "import_per_fiscal": 0.43,
+     "foreign_assets_per_fiscal": -0.114,
+     "external_leak_per_fiscal": 0.315,
+     "rent_capture_per_fiscal": -0.872,
+     "fiscal_pct_gdp": 4.718,
+     "external_leak_pct_gdp": 1.487
+    }
+   },
+   "final": {
+    "A (reserve)": {
+     "debt": 2.646,
+     "e": 0.05,
+     "pi": 0.139,
+     "Y": 2.293
+    },
+    "B (non-reserve adv.)": {
+     "debt": 3.023,
+     "e": 3.064,
+     "pi": 0.227,
+     "Y": 1.298
+    },
+    "C (emerging)": {
+     "debt": 1.421,
+     "e": 1.634,
+     "pi": 0.146,
+     "Y": 1.215
+    },
+    "D (developing)": {
+     "debt": 1.177,
+     "e": 1.494,
+     "pi": 0.123,
+     "Y": 0.458
+    }
+   }
+  }
+ },
+ "_config": {
+  "u": 0.05,
+  "simultaneous": false,
+  "reserve_flight_mode": "v6",
+  "reserve_flight_floor": 0.3,
+  "universal_split": null
+ }
+}

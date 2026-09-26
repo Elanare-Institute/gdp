@@ -1,0 +1,16 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Raw simulation output. Large (results/ is ~176MB, most of it phase1's
+# Sobol and LHS designs) and fully regenerable from the analysis scripts.
+# The summaries these were reduced to are kept: they are what the reports
+# cite, and they are small.
+results/**/*.jsonl
+
+# Phase 4 was stopped mid-run when the model was rebuilt as v8; its partial
+# output is not cited anywhere.
+results/phase4/

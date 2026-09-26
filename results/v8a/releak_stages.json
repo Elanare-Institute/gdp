@@ -1,0 +1,450 @@
+{
+ "staged": {
+  "u": 0.05,
+  "cells": {
+   "A (reserve)": {
+    "ubi": {
+     "a_rate_total": 0.101,
+     "b_level_total": 0.505795,
+     "c_level_imports": 0.29546440594059403,
+     "import_rate": 0.059,
+     "fa_rate": 0.042,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "a_rate_total": 0.108,
+     "b_level_total": 0.161928,
+     "c_level_imports": 0.13493999999999998,
+     "import_rate": 0.09,
+     "fa_rate": 0.017,
+     "fiscal_pct_gdp": 1.5
+    },
+    "voucher": {
+     "a_rate_total": 0.108,
+     "b_level_total": 0.158414,
+     "c_level_imports": 0.13201166666666667,
+     "import_rate": 0.09,
+     "fa_rate": 0.018,
+     "fiscal_pct_gdp": 1.467
+    },
+    "clt": {
+     "a_rate_total": 0.125,
+     "b_level_total": 0.053123,
+     "c_level_imports": 0.068422424,
+     "import_rate": 0.161,
+     "fa_rate": -0.036,
+     "fiscal_pct_gdp": 0.423
+    }
+   },
+   "B (non-reserve adv.)": {
+    "ubi": {
+     "a_rate_total": 0.355,
+     "b_level_total": 1.772957,
+     "c_level_imports": 0.4844417718309859,
+     "import_rate": 0.097,
+     "fa_rate": 0.258,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "a_rate_total": 0.205,
+     "b_level_total": 0.307181,
+     "c_level_imports": 0.22027125365853656,
+     "import_rate": 0.147,
+     "fa_rate": 0.057,
+     "fiscal_pct_gdp": 1.5
+    },
+    "voucher": {
+     "a_rate_total": 0.205,
+     "b_level_total": 0.312456,
+     "c_level_imports": 0.22557799024390243,
+     "import_rate": 0.148,
+     "fa_rate": 0.058,
+     "fiscal_pct_gdp": 1.524
+    },
+    "clt": {
+     "a_rate_total": 0.147,
+     "b_level_total": 0.062102,
+     "c_level_imports": 0.10899534693877552,
+     "import_rate": 0.258,
+     "fa_rate": -0.111,
+     "fiscal_pct_gdp": 0.423
+    }
+   },
+   "C (emerging)": {
+    "ubi": {
+     "a_rate_total": 0.257,
+     "b_level_total": 1.286606,
+     "c_level_imports": 0.6407998754863813,
+     "import_rate": 0.128,
+     "fa_rate": 0.13,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "a_rate_total": 0.247,
+     "b_level_total": 0.493182,
+     "c_level_imports": 0.3673906396761134,
+     "import_rate": 0.184,
+     "fa_rate": 0.062,
+     "fiscal_pct_gdp": 2.0
+    },
+    "voucher": {
+     "a_rate_total": 0.247,
+     "b_level_total": 0.496721,
+     "c_level_imports": 0.37002697975708504,
+     "import_rate": 0.184,
+     "fa_rate": 0.062,
+     "fiscal_pct_gdp": 2.014
+    },
+    "clt": {
+     "a_rate_total": 0.215,
+     "b_level_total": 0.128537,
+     "c_level_imports": 0.2206053627906977,
+     "import_rate": 0.369,
+     "fa_rate": -0.155,
+     "fiscal_pct_gdp": 0.599
+    }
+   },
+   "D (developing)": {
+    "ubi": {
+     "a_rate_total": 0.27,
+     "b_level_total": 1.349812,
+     "c_level_imports": 0.8398830222222222,
+     "import_rate": 0.168,
+     "fa_rate": 0.102,
+     "fiscal_pct_gdp": 5.0
+    },
+    "cash_t": {
+     "a_rate_total": 0.288,
+     "b_level_total": 0.720691,
+     "c_level_imports": 0.580556638888889,
+     "import_rate": 0.232,
+     "fa_rate": 0.057,
+     "fiscal_pct_gdp": 2.5
+    },
+    "voucher": {
+     "a_rate_total": 0.288,
+     "b_level_total": 0.726154,
+     "c_level_imports": 0.5849573888888889,
+     "import_rate": 0.232,
+     "fa_rate": 0.057,
+     "fiscal_pct_gdp": 2.519
+    },
+    "clt": {
+     "a_rate_total": 0.375,
+     "b_level_total": 0.311509,
+     "c_level_imports": 0.4319591466666666,
+     "import_rate": 0.52,
+     "fa_rate": -0.145,
+     "fiscal_pct_gdp": 0.831
+    }
+   }
+  },
+  "rankings": {
+   "A (reserve)": {
+    "a_rate_total": [
+     "clt",
+     "cash_t",
+     "voucher",
+     "ubi"
+    ],
+    "b_level_total": [
+     "ubi",
+     "cash_t",
+     "voucher",
+     "clt"
+    ],
+    "c_level_imports": [
+     "ubi",
+     "cash_t",
+     "voucher",
+     "clt"
+    ],
+    "a_vs_b": "DIFFERENT",
+    "b_vs_c": "same"
+   },
+   "B (non-reserve adv.)": {
+    "a_rate_total": [
+     "ubi",
+     "cash_t",
+     "voucher",
+     "clt"
+    ],
+    "b_level_total": [
+     "ubi",
+     "voucher",
+     "cash_t",
+     "clt"
+    ],
+    "c_level_imports": [
+     "ubi",
+     "voucher",
+     "cash_t",
+     "clt"
+    ],
+    "a_vs_b": "DIFFERENT",
+    "b_vs_c": "same"
+   },
+   "C (emerging)": {
+    "a_rate_total": [
+     "ubi",
+     "cash_t",
+     "voucher",
+     "clt"
+    ],
+    "b_level_total": [
+     "ubi",
+     "voucher",
+     "cash_t",
+     "clt"
+    ],
+    "c_level_imports": [
+     "ubi",
+     "voucher",
+     "cash_t",
+     "clt"
+    ],
+    "a_vs_b": "DIFFERENT",
+    "b_vs_c": "same"
+   },
+   "D (developing)": {
+    "a_rate_total": [
+     "clt",
+     "cash_t",
+     "voucher",
+     "ubi"
+    ],
+    "b_level_total": [
+     "ubi",
+     "voucher",
+     "cash_t",
+     "clt"
+    ],
+    "c_level_imports": [
+     "ubi",
+     "voucher",
+     "cash_t",
+     "clt"
+    ],
+    "a_vs_b": "DIFFERENT",
+    "b_vs_c": "same"
+   }
+  }
+ },
+ "capital": {
+  "note": "D alone runs UBI at u=0.01; its households place part abroad",
+  "world_demand_path": [
+   {
+    "year": 0.0,
+    "demand_base": 0.054509,
+    "demand_probe": 0.054509,
+    "d_demand": 0.0
+   },
+   {
+    "year": 1.0,
+    "demand_base": 0.055998,
+    "demand_probe": 0.056347,
+    "d_demand": 0.0003490000000000021
+   },
+   {
+    "year": 2.0,
+    "demand_base": 0.057509,
+    "demand_probe": 0.05788,
+    "d_demand": 0.00037100000000000327
+   },
+   {
+    "year": 3.0,
+    "demand_base": 0.05904,
+    "demand_probe": 0.059435,
+    "d_demand": 0.0003949999999999995
+   },
+   {
+    "year": 4.0,
+    "demand_base": 0.060591,
+    "demand_probe": 0.06101,
+    "d_demand": 0.0004190000000000027
+   },
+   {
+    "year": 5.0,
+    "demand_base": 0.06216,
+    "demand_probe": 0.062604,
+    "d_demand": 0.0004440000000000069
+   },
+   {
+    "year": 6.0,
+    "demand_base": 0.063746,
+    "demand_probe": 0.064216,
+    "d_demand": 0.0004699999999999982
+   },
+   {
+    "year": 7.0,
+    "demand_base": 0.065348,
+    "demand_probe": 0.065845,
+    "d_demand": 0.0004969999999999974
+   },
+   {
+    "year": 8.0,
+    "demand_base": 0.066964,
+    "demand_probe": 0.067489,
+    "d_demand": 0.0005249999999999977
+   },
+   {
+    "year": 9.0,
+    "demand_base": 0.068594,
+    "demand_probe": 0.069148,
+    "d_demand": 0.0005539999999999989
+   },
+   {
+    "year": 10.0,
+    "demand_base": 0.070236,
+    "demand_probe": 0.070819,
+    "d_demand": 0.0005829999999999863
+   },
+   {
+    "year": 11.0,
+    "demand_base": 0.071889,
+    "demand_probe": 0.072502,
+    "d_demand": 0.0006130000000000024
+   },
+   {
+    "year": 12.0,
+    "demand_base": 0.073551,
+    "demand_probe": 0.074195,
+    "d_demand": 0.0006439999999999918
+   },
+   {
+    "year": 13.0,
+    "demand_base": 0.075221,
+    "demand_probe": 0.075897,
+    "d_demand": 0.0006760000000000099
+   },
+   {
+    "year": 14.0,
+    "demand_base": 0.076896,
+    "demand_probe": 0.077606,
+    "d_demand": 0.0007099999999999884
+   },
+   {
+    "year": 15.0,
+    "demand_base": 0.078577,
+    "demand_probe": 0.07932,
+    "d_demand": 0.0007430000000000075
+   },
+   {
+    "year": 16.0,
+    "demand_base": 0.08026,
+    "demand_probe": 0.081038,
+    "d_demand": 0.0007780000000000009
+   },
+   {
+    "year": 17.0,
+    "demand_base": 0.081945,
+    "demand_probe": 0.082759,
+    "d_demand": 0.0008139999999999953
+   },
+   {
+    "year": 18.0,
+    "demand_base": 0.08363,
+    "demand_probe": 0.084482,
+    "d_demand": 0.0008520000000000055
+   },
+   {
+    "year": 19.0,
+    "demand_base": 0.085312,
+    "demand_probe": 0.086205,
+    "d_demand": 0.0008930000000000049
+   },
+   {
+    "year": 20.0,
+    "demand_base": 0.08699,
+    "demand_probe": 0.087926,
+    "d_demand": 0.0009360000000000063
+   },
+   {
+    "year": 21.0,
+    "demand_base": 0.088663,
+    "demand_probe": 0.089645,
+    "d_demand": 0.0009819999999999968
+   },
+   {
+    "year": 22.0,
+    "demand_base": 0.090328,
+    "demand_probe": 0.09136,
+    "d_demand": 0.0010319999999999913
+   },
+   {
+    "year": 23.0,
+    "demand_base": 0.091983,
+    "demand_probe": 0.093068,
+    "d_demand": 0.0010850000000000026
+   },
+   {
+    "year": 24.0,
+    "demand_base": 0.093628,
+    "demand_probe": 0.09477,
+    "d_demand": 0.0011419999999999902
+   },
+   {
+    "year": 25.0,
+    "demand_base": 0.095259,
+    "demand_probe": 0.096464,
+    "d_demand": 0.0012049999999999977
+   },
+   {
+    "year": 26.0,
+    "demand_base": 0.096875,
+    "demand_probe": 0.09815,
+    "d_demand": 0.0012749999999999984
+   },
+   {
+    "year": 27.0,
+    "demand_base": 0.098476,
+    "demand_probe": 0.099837,
+    "d_demand": 0.001361000000000001
+   },
+   {
+    "year": 28.0,
+    "demand_base": 0.10006,
+    "demand_probe": 0.101535,
+    "d_demand": 0.001475000000000004
+   },
+   {
+    "year": 29.0,
+    "demand_base": 0.101625,
+    "demand_probe": 0.103258,
+    "d_demand": 0.0016330000000000094
+   },
+   {
+    "year": 30.0,
+    "demand_base": 0.103169,
+    "demand_probe": 0.105017,
+    "d_demand": 0.0018480000000000024
+   }
+  ],
+  "final": {
+   "A (reserve)": {
+    "nfa_base": 0.49425,
+    "nfa_probe": 0.54702,
+    "Y_base": 1.806,
+    "Y_probe": 1.809
+   },
+   "B (non-reserve adv.)": {
+    "nfa_base": 0.12404,
+    "nfa_probe": 0.16296,
+    "Y_base": 1.433,
+    "Y_probe": 1.435
+   },
+   "C (emerging)": {
+    "nfa_base": -0.31775,
+    "nfa_probe": -0.30752,
+    "Y_base": 1.132,
+    "Y_probe": 1.132
+   },
+   "D (developing)": {
+    "nfa_base": -0.30054,
+    "nfa_probe": -0.40246,
+    "Y_base": 0.427,
+    "Y_probe": 0.428
+   }
+  }
+ }
+}

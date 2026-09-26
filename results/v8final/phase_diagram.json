@@ -1,0 +1,9867 @@
+{
+ "archetype_positions": {
+  "A": [
+   1.0,
+   1.0
+  ],
+  "B": [
+   0.9,
+   0.75
+  ],
+  "C": [
+   0.4,
+   0.5
+  ],
+  "D": [
+   -0.0,
+   -0.0
+  ]
+ },
+ "floor": 0.85,
+ "tolerance": 0.05,
+ "automation_levels": [
+  0.0,
+  0.4
+ ],
+ "modalities": [
+  "ubi",
+  "cash_t",
+  "voucher",
+  "clt"
+ ],
+ "base": {
+  "0": {
+   "automation": 0.0,
+   "overrides": {},
+   "cells": {
+    "c0.00_s0.00": {
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "need": 0.015275,
+     "modalities": {
+      "ubi": null,
+      "cash_t": null,
+      "voucher": null,
+      "clt": null
+     }
+    },
+    "c0.00_s0.25": {
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "need": 0.011915,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.04411653719008264
+      },
+      "cash_t": null,
+      "voucher": null,
+      "clt": null
+     }
+    },
+    "c0.00_s0.50": {
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.00_s0.75": {
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.00_s1.00": {
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.25_s0.00": {
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "need": 0.013277,
+     "modalities": {
+      "ubi": null,
+      "cash_t": null,
+      "voucher": null,
+      "clt": null
+     }
+    },
+    "c0.25_s0.25": {
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.02939164462809917
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.012052190082644628
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.01606195867768595
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0023585206611570248
+      }
+     }
+    },
+    "c0.25_s0.50": {
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.25_s0.75": {
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.25_s1.00": {
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s0.00": {
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": null,
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.01969767768595041
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.028089793388429752
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.004169074380165289
+      }
+     }
+    },
+    "c0.50_s0.25": {
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0012657272727272725
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0013308842975206612
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0019161487603305786
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s0.50": {
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s0.75": {
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s1.00": {
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.00": {
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "need": 0.011838,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.02847285950413223
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 9.308264462809918e-05
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.25": {
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.50": {
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.75": {
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s1.00": {
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.00": {
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "need": 0.012113,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.009100438016528926
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.25": {
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "need": 0.011865,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.50": {
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.75": {
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s1.00": {
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "need": 0.0118,
+     "modalities": {
+      "ubi": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.02,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.02,
+       "rationing": 0.0
+      }
+     }
+    }
+   }
+  },
+  "0.4": {
+   "automation": 0.4,
+   "overrides": {},
+   "cells": {
+    "c0.00_s0.00": {
+     "credit": 0.0,
+     "self_sufficiency": 0.0,
+     "need": 0.057818,
+     "modalities": {
+      "ubi": null,
+      "cash_t": null,
+      "voucher": null,
+      "clt": null
+     }
+    },
+    "c0.00_s0.25": {
+     "credit": 0.0,
+     "self_sufficiency": 0.25,
+     "need": 0.049323,
+     "modalities": {
+      "ubi": {
+       "u": 0.06,
+       "rationing": 0.02716295867768595
+      },
+      "cash_t": {
+       "u": 0.06,
+       "rationing": 0.03935757024793389
+      },
+      "voucher": {
+       "u": 0.06,
+       "rationing": 0.04075522314049587
+      },
+      "clt": {
+       "u": 0.06,
+       "rationing": 0.04959028925619834
+      }
+     }
+    },
+    "c0.00_s0.50": {
+     "credit": 0.0,
+     "self_sufficiency": 0.5,
+     "need": 0.034994,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.00_s0.75": {
+     "credit": 0.0,
+     "self_sufficiency": 0.75,
+     "need": 0.030653,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.00_s1.00": {
+     "credit": 0.0,
+     "self_sufficiency": 1.0,
+     "need": 0.030414,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.25_s0.00": {
+     "credit": 0.25,
+     "self_sufficiency": 0.0,
+     "need": 0.034213,
+     "modalities": {
+      "ubi": {
+       "u": 0.06,
+       "rationing": 0.04781689256198347
+      },
+      "cash_t": null,
+      "voucher": null,
+      "clt": null
+     }
+    },
+    "c0.25_s0.25": {
+     "credit": 0.25,
+     "self_sufficiency": 0.25,
+     "need": 0.031466,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.02012579338842975
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.04428180165289256
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.03838400826446281
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.00811998347107438
+      }
+     }
+    },
+    "c0.25_s0.50": {
+     "credit": 0.25,
+     "self_sufficiency": 0.5,
+     "need": 0.030804,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.004239247933884298
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.25_s0.75": {
+     "credit": 0.25,
+     "self_sufficiency": 0.75,
+     "need": 0.030448,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.25_s1.00": {
+     "credit": 0.25,
+     "self_sufficiency": 1.0,
+     "need": 0.030349,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s0.00": {
+     "credit": 0.5,
+     "self_sufficiency": 0.0,
+     "need": 0.031736,
+     "modalities": {
+      "ubi": null,
+      "cash_t": null,
+      "voucher": null,
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.04007619834710743
+      }
+     }
+    },
+    "c0.50_s0.25": {
+     "credit": 0.5,
+     "self_sufficiency": 0.25,
+     "need": 0.031054,
+     "modalities": {
+      "ubi": null,
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0018229090909090907
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.01946469421487603
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0024100165289256195
+      }
+     }
+    },
+    "c0.50_s0.50": {
+     "credit": 0.5,
+     "self_sufficiency": 0.5,
+     "need": 0.030607,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s0.75": {
+     "credit": 0.5,
+     "self_sufficiency": 0.75,
+     "need": 0.030375,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.50_s1.00": {
+     "credit": 0.5,
+     "self_sufficiency": 1.0,
+     "need": 0.030349,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.00": {
+     "credit": 0.75,
+     "self_sufficiency": 0.0,
+     "need": 0.031897,
+     "modalities": {
+      "ubi": null,
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.03598856198347108
+      },
+      "voucher": null,
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.012981578512396693
+      }
+     }
+    },
+    "c0.75_s0.25": {
+     "credit": 0.75,
+     "self_sufficiency": 0.25,
+     "need": 0.031188,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.017438561983471077
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.50": {
+     "credit": 0.75,
+     "self_sufficiency": 0.5,
+     "need": 0.030718,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s0.75": {
+     "credit": 0.75,
+     "self_sufficiency": 0.75,
+     "need": 0.030456,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c0.75_s1.00": {
+     "credit": 0.75,
+     "self_sufficiency": 1.0,
+     "need": 0.030378,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.00": {
+     "credit": 1.0,
+     "self_sufficiency": 0.0,
+     "need": 0.032307,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.038029016528925624
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.014229909090909092
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.037509314049586774
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.25": {
+     "credit": 1.0,
+     "self_sufficiency": 0.25,
+     "need": 0.031491,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.50": {
+     "credit": 1.0,
+     "self_sufficiency": 0.5,
+     "need": 0.030924,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s0.75": {
+     "credit": 1.0,
+     "self_sufficiency": 0.75,
+     "need": 0.030574,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    },
+    "c1.00_s1.00": {
+     "credit": 1.0,
+     "self_sufficiency": 1.0,
+     "need": 0.030417,
+     "modalities": {
+      "ubi": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "cash_t": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "voucher": {
+       "u": 0.04,
+       "rationing": 0.0
+      },
+      "clt": {
+       "u": 0.04,
+       "rationing": 0.0
+      }
+     }
+    }
+   }
+  }
+ },
+ "sections": {
+  "land_share_low": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "land_share": 0.3
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015275,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011915,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.04411653719008264
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013277,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02939164462809917
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012052190082644628
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01606195867768595
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0025413966942148757
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.01969767768595041
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028089793388429752
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0045640826446281
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0012657272727272725
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0013308842975206612
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019161487603305786
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011838,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02847285950413223
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 9.308264462809918e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012113,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.009100438016528926
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011865,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "land_share": 0.3
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057818,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049323,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.02716295867768595
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03935757024793389
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04075522314049587
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.04985902479338843
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034994,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030653,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030414,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034213,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04781689256198347
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031466,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.02012579338842975
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04428180165289256
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03838400826446281
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.012112446280991736
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030804,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.004239247933884298
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030448,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031736,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.04579468595041322
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031054,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0018229090909090907
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.01946469421487603
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.003695528925619835
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030607,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030375,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.031897,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03598856198347108
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.014713884297520663
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031188,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.017438561983471077
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030718,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030456,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030378,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032307,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.038029016528925624
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014229909090909092
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037509314049586774
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031491,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030924,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030574,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "land_share_high": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "land_share": 0.45
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015275,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011915,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.04411653719008264
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013277,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02939164462809917
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012052190082644628
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01606195867768595
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0021142644628099174
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.01969767768595041
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028089793388429752
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.003729214876033058
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0012657272727272725
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0013308842975206612
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019161487603305786
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011838,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02847285950413223
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 9.308264462809918e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012113,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.009100438016528926
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011865,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "land_share": 0.45
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057818,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049323,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.02716295867768595
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03935757024793389
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04075522314049587
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.049324702479338844
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034994,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030653,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030414,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034213,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04781689256198347
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031466,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.02012579338842975
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04428180165289256
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03838400826446281
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.006520834710743801
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030804,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.004239247933884298
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030448,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031736,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.03695619834710744
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031054,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0018229090909090907
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.01946469421487603
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0010323553719008265
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030607,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030375,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.031897,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03598856198347108
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.011998520661157025
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031188,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.017438561983471077
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030718,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030456,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030378,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032307,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.038029016528925624
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014229909090909092
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037509314049586774
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031491,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030924,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030574,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "eps_supply_low": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "eps_supply": 0.3
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015125,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011869,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0441342479338843
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013198,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02958989256198347
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012027190082644627
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01605494214876033
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0018814462809917355
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.019416388429752067
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028026685950413223
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0034563388429752068
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.001250190082644628
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0012349917355371901
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019002148760330578
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011824,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02869198347107438
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 7.869421487603305e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012077,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.00869010743801653
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.01185,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "eps_supply": 0.3
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057071,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.048512,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.027130338842975207
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.039268165289256196
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04072759504132231
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.04937480991735537
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034609,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030839,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030615,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.03418,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04795087603305785
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031611,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.020537991735537192
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.044084206611570254
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03860746280991736
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.007574247933884297
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030983,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0031794628099173555
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030646,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030552,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.03188,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.03732605785123967
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031227,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0014315867768595041
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.015620289256198348
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0019055206611570247
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030798,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030577,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030554,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.032032,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.034001595041322316
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.010091173553719007
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031352,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.014730355371900827
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030903,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030652,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030578,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.03548188429752066
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.012503743801652893
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03517655371900827
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031635,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.031095,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.03076,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030609,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "eps_supply_high": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "eps_supply": 0.5
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015395,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011952,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.044103198347107436
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.01334,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.024568842975206614
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012040991735537191
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.016055206611570248
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.002294826446280992
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.019924256198347107
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.02813890082644628
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.004531876033057851
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.005012214876033058
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0014091157024793387
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019262314049586777
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011849,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0319135041322314
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.00011124793388429753
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012141,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.00966903305785124
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011877,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "eps_supply": 0.5
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.058429,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049993,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.027188595041322317
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03941396694214876
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.0407935867768595
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.049759727272727275
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.035319,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030505,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030254,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034241,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04771231404958677
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031351,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.019816661157024795
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04518249586776859
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037564231404958674
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.011268471074380166
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030662,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0050173140495867775
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.03029,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030187,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031625,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.04535861983471075
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.030916,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.002259661157024793
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.022763628099173552
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.002726429752066116
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030455,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030215,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030186,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.03179,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03647598347107438
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.016429677685950415
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031057,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.018958314049586776
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030571,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0303,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030219,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.03222,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.03958592561983471
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014582958677685949
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.04084002479338843
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031377,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030789,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030427,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030263,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "m_H_low": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "m_H": 0.05
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015275,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011915,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.04411653719008264
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013277,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02939164462809917
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012052190082644628
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01606195867768595
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0017516776859504133
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.01969767768595041
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028089793388429752
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0027936280991735537
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0012657272727272725
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0013308842975206612
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019161487603305786
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011838,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02847285950413223
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 9.308264462809918e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012113,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.009100438016528926
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011865,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "m_H": 0.05
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057818,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049323,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.02716295867768595
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03935757024793389
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04075522314049587
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.04638421487603306
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034994,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030653,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030414,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034213,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04781689256198347
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031466,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.02012579338842975
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04428180165289256
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03838400826446281
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.008094487603305785
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030804,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.004239247933884298
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030448,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031736,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0348227520661157
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031054,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0018229090909090907
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.01946469421487603
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.002055694214876033
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030607,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030375,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.031897,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03598856198347108
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.005291570247933884
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031188,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.017438561983471077
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030718,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030456,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030378,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032307,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.038029016528925624
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014229909090909092
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037509314049586774
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031491,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030924,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030574,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "m_H_high": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "m_H": 0.25
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015275,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011915,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.04411653719008264
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013277,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02939164462809917
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012052190082644628
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01606195867768595
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0021513801652892563
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.01969767768595041
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028089793388429752
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0032451900826446283
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0012657272727272725
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0013308842975206612
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019161487603305786
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011838,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02847285950413223
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 9.308264462809918e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012113,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.009100438016528926
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011865,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "m_H": 0.25
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057818,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049323,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.02716295867768595
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03935757024793389
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04075522314049587
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.04452614876033058
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034994,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030653,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030414,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034213,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04781689256198347
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031466,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.02012579338842975
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04428180165289256
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03838400826446281
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0064696198347107435
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030804,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.004239247933884298
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030448,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031736,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.03329229752066116
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031054,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0018229090909090907
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.01946469421487603
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0011189338842975207
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030607,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030375,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.031897,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03598856198347108
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.01023121487603306
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031188,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.017438561983471077
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030718,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030456,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030378,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032307,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.038029016528925624
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014229909090909092
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037509314049586774
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031491,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030924,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030574,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "clt_build_rate_low": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "clt_build_rate": 0.01
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015275,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011915,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.04411653719008264
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013277,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02939164462809917
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012052190082644628
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01606195867768595
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0023585206611570248
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.01969767768595041
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028089793388429752
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.004169074380165289
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0012657272727272725
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0013308842975206612
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019161487603305786
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011838,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02847285950413223
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 9.308264462809918e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012113,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.009100438016528926
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011865,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "clt_build_rate": 0.01
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057818,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049323,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.02716295867768595
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03935757024793389
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04075522314049587
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.04959028925619834
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034994,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030653,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030414,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034213,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04781689256198347
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031466,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.02012579338842975
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04428180165289256
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03838400826446281
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.00811998347107438
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030804,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.004239247933884298
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030448,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031736,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.04007619834710743
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031054,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0018229090909090907
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.01946469421487603
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0024100165289256195
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030607,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030375,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.031897,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03598856198347108
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.012981578512396693
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031188,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.017438561983471077
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030718,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030456,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030378,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032307,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.038029016528925624
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014229909090909092
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037509314049586774
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031491,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030924,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030574,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  },
+  "clt_build_rate_high": {
+   "0": {
+    "automation": 0.0,
+    "overrides": {
+     "clt_build_rate": 0.04
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.015275,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011915,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.04411653719008264
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.013277,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02939164462809917
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.012052190082644628
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.01606195867768595
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0023585206611570248
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.01969767768595041
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.028089793388429752
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.004169074380165289
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0012657272727272725
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0013308842975206612
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0019161487603305786
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.011838,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.02847285950413223
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 9.308264462809918e-05
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.012113,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.009100438016528926
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.011865,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.0118,
+      "modalities": {
+       "ubi": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.02,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.02,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   },
+   "0.4": {
+    "automation": 0.4,
+    "overrides": {
+     "clt_build_rate": 0.04
+    },
+    "cells": {
+     "c0.00_s0.00": {
+      "credit": 0.0,
+      "self_sufficiency": 0.0,
+      "need": 0.057818,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.00_s0.25": {
+      "credit": 0.0,
+      "self_sufficiency": 0.25,
+      "need": 0.049323,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.02716295867768595
+       },
+       "cash_t": {
+        "u": 0.06,
+        "rationing": 0.03935757024793389
+       },
+       "voucher": {
+        "u": 0.06,
+        "rationing": 0.04075522314049587
+       },
+       "clt": {
+        "u": 0.06,
+        "rationing": 0.04959028925619834
+       }
+      }
+     },
+     "c0.00_s0.50": {
+      "credit": 0.0,
+      "self_sufficiency": 0.5,
+      "need": 0.034994,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s0.75": {
+      "credit": 0.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030653,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.00_s1.00": {
+      "credit": 0.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030414,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.00": {
+      "credit": 0.25,
+      "self_sufficiency": 0.0,
+      "need": 0.034213,
+      "modalities": {
+       "ubi": {
+        "u": 0.06,
+        "rationing": 0.04781689256198347
+       },
+       "cash_t": null,
+       "voucher": null,
+       "clt": null
+      }
+     },
+     "c0.25_s0.25": {
+      "credit": 0.25,
+      "self_sufficiency": 0.25,
+      "need": 0.031466,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.02012579338842975
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.04428180165289256
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.03838400826446281
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.00811998347107438
+       }
+      }
+     },
+     "c0.25_s0.50": {
+      "credit": 0.25,
+      "self_sufficiency": 0.5,
+      "need": 0.030804,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.004239247933884298
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s0.75": {
+      "credit": 0.25,
+      "self_sufficiency": 0.75,
+      "need": 0.030448,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.25_s1.00": {
+      "credit": 0.25,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.00": {
+      "credit": 0.5,
+      "self_sufficiency": 0.0,
+      "need": 0.031736,
+      "modalities": {
+       "ubi": null,
+       "cash_t": null,
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.04007619834710743
+       }
+      }
+     },
+     "c0.50_s0.25": {
+      "credit": 0.5,
+      "self_sufficiency": 0.25,
+      "need": 0.031054,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0018229090909090907
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.01946469421487603
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0024100165289256195
+       }
+      }
+     },
+     "c0.50_s0.50": {
+      "credit": 0.5,
+      "self_sufficiency": 0.5,
+      "need": 0.030607,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s0.75": {
+      "credit": 0.5,
+      "self_sufficiency": 0.75,
+      "need": 0.030375,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.50_s1.00": {
+      "credit": 0.5,
+      "self_sufficiency": 1.0,
+      "need": 0.030349,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.00": {
+      "credit": 0.75,
+      "self_sufficiency": 0.0,
+      "need": 0.031897,
+      "modalities": {
+       "ubi": null,
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.03598856198347108
+       },
+       "voucher": null,
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.012981578512396693
+       }
+      }
+     },
+     "c0.75_s0.25": {
+      "credit": 0.75,
+      "self_sufficiency": 0.25,
+      "need": 0.031188,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.017438561983471077
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.50": {
+      "credit": 0.75,
+      "self_sufficiency": 0.5,
+      "need": 0.030718,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s0.75": {
+      "credit": 0.75,
+      "self_sufficiency": 0.75,
+      "need": 0.030456,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c0.75_s1.00": {
+      "credit": 0.75,
+      "self_sufficiency": 1.0,
+      "need": 0.030378,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.00": {
+      "credit": 1.0,
+      "self_sufficiency": 0.0,
+      "need": 0.032307,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.038029016528925624
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.014229909090909092
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.037509314049586774
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.25": {
+      "credit": 1.0,
+      "self_sufficiency": 0.25,
+      "need": 0.031491,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.50": {
+      "credit": 1.0,
+      "self_sufficiency": 0.5,
+      "need": 0.030924,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s0.75": {
+      "credit": 1.0,
+      "self_sufficiency": 0.75,
+      "need": 0.030574,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     },
+     "c1.00_s1.00": {
+      "credit": 1.0,
+      "self_sufficiency": 1.0,
+      "need": 0.030417,
+      "modalities": {
+       "ubi": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "cash_t": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "voucher": {
+        "u": 0.04,
+        "rationing": 0.0
+       },
+       "clt": {
+        "u": 0.04,
+        "rationing": 0.0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

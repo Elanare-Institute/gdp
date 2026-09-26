@@ -1,0 +1,5011 @@
+{
+ "u_grid": [
+  0.0,
+  0.0025,
+  0.005,
+  0.0075,
+  0.01,
+  0.015,
+  0.02,
+  0.03
+ ],
+ "kappas": [
+  0.1,
+  0.35,
+  1.0
+ ],
+ "by_kappa": {
+  "0.1": {
+   "gdp_linked": {
+    "ubi": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.015279,
+      "runaway": false,
+      "inflation_peak": 0.0011369999999999436,
+      "inflation_final": 0.0001448087539355214,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.030741,
+      "runaway": false,
+      "inflation_peak": 0.0022759999999999447,
+      "inflation_final": 0.00032511456649131354,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.04655,
+      "runaway": false,
+      "inflation_peak": 0.0034160000000000856,
+      "inflation_final": 0.0004894659658636336,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.062483,
+      "runaway": false,
+      "inflation_peak": 0.004556999999999922,
+      "inflation_final": 0.0005622072425852664,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.093037,
+      "runaway": false,
+      "inflation_peak": 0.006844000000000072,
+      "inflation_final": -0.00012074985660959214,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 1,
+      "first_default_year": 30.0,
+      "demand_share_solvent": 0.8637967676567984,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.12852,
+      "runaway": false,
+      "inflation_peak": 0.009136000000000033,
+      "inflation_final": 0.002973762280322978,
+      "gap_max": 0.09549019404701475,
+      "insolvent_blocs": 1,
+      "first_default_year": 27.0,
+      "demand_share_solvent": 0.8715434083601287,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.774509702350738
+     },
+     "0.03": {
+      "world_price": 1.208899,
+      "runaway": false,
+      "inflation_peak": 0.01373700000000011,
+      "inflation_final": 0.005478611209070339,
+      "gap_max": 0.1502750639743895,
+      "insolvent_blocs": 1,
+      "first_default_year": 24.0,
+      "demand_share_solvent": 0.8802734445365133,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.009168799146317
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.008117,
+      "runaway": false,
+      "inflation_peak": 0.0005900000000000905,
+      "inflation_final": 9.027544924422592e-05,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.016227,
+      "runaway": false,
+      "inflation_peak": 0.0011810000000000986,
+      "inflation_final": 0.00017026654095153582,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.024332,
+      "runaway": false,
+      "inflation_peak": 0.0017730000000000246,
+      "inflation_final": 0.0002450977998811332,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.03245,
+      "runaway": false,
+      "inflation_peak": 0.0023649999999999505,
+      "inflation_final": 0.0003226378404774799,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.048739,
+      "runaway": false,
+      "inflation_peak": 0.003551000000000082,
+      "inflation_final": 0.0004407232057941357,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.064927,
+      "runaway": false,
+      "inflation_peak": 0.004739000000000049,
+      "inflation_final": 0.0004274419618364167,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.095748,
+      "runaway": false,
+      "inflation_peak": 0.007120999999999933,
+      "inflation_final": 2.646663971317409e-05,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8629307973434982,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.017226,
+      "runaway": false,
+      "inflation_peak": 0.0012490000000000556,
+      "inflation_final": 0.0002005856313824772,
+      "gap_max": 0.012792528447720608,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117011379088243
+     },
+     "0.005": {
+      "world_price": 1.034676,
+      "runaway": false,
+      "inflation_peak": 0.0024999999999999467,
+      "inflation_final": 0.0003915801564580157,
+      "gap_max": 0.025567165247262658,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.1134330494525315
+     },
+     "0.0075": {
+      "world_price": 1.052359,
+      "runaway": false,
+      "inflation_peak": 0.0037529999999998953,
+      "inflation_final": 0.0005752295688914444,
+      "gap_max": 0.038359693694983266,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.114625825997769
+     },
+     "0.01": {
+      "world_price": 1.070298,
+      "runaway": false,
+      "inflation_peak": 0.005007999999999901,
+      "inflation_final": 0.0007592432252503389,
+      "gap_max": 0.051152222142703874,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.115222214270387
+     },
+     "0.015": {
+      "world_price": 1.1069,
+      "runaway": false,
+      "inflation_peak": 0.007522000000000029,
+      "inflation_final": 0.0010472605725386774,
+      "gap_max": 0.07675517068632365,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117011379088243
+     },
+     "0.02": {
+      "world_price": 1.144029,
+      "runaway": false,
+      "inflation_peak": 0.010043999999999942,
+      "inflation_final": 0.0010088583538370166,
+      "gap_max": 0.10235811922994364,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117905961497182
+     },
+     "0.03": {
+      "world_price": 1.224115,
+      "runaway": false,
+      "inflation_peak": 0.015109999999999957,
+      "inflation_final": 0.0034938636048769123,
+      "gap_max": 0.15359979961354053,
+      "insolvent_blocs": 1,
+      "first_default_year": 28.0,
+      "demand_share_solvent": 0.855567565603626,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.119993320451352
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.005156,
+      "runaway": false,
+      "inflation_peak": 0.00034399999999989994,
+      "inflation_final": 7.959597085172021e-05,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.010314,
+      "runaway": false,
+      "inflation_peak": 0.0006880000000000219,
+      "inflation_final": 0.00015641148495859625,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.015475,
+      "runaway": false,
+      "inflation_peak": 0.0010319999999999219,
+      "inflation_final": 0.0002314723612151237,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.020638,
+      "runaway": false,
+      "inflation_peak": 0.001374999999999904,
+      "inflation_final": 0.0003028434945981928,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.030984,
+      "runaway": false,
+      "inflation_peak": 0.0020599999999999508,
+      "inflation_final": 0.0004444332311845933,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.041361,
+      "runaway": false,
+      "inflation_peak": 0.0027440000000000797,
+      "inflation_final": 0.0005793854094802153,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.062264,
+      "runaway": false,
+      "inflation_peak": 0.004107000000000083,
+      "inflation_final": 0.0008451365079187312,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   },
+   "fixed_nominal": {
+    "ubi": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.010605,
+      "runaway": false,
+      "inflation_peak": 0.0011270000000001001,
+      "inflation_final": -2.5726501561962323e-05,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.55948,
+       "B (non-reserve adv.)": 0.518493,
+       "C (emerging)": 0.44748,
+       "D (developing)": 0.370108
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.021252,
+      "runaway": false,
+      "inflation_peak": 0.0022539999999999782,
+      "inflation_final": -3.1333106168318636e-05,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.526238,
+       "B (non-reserve adv.)": 0.486655,
+       "C (emerging)": 0.428682,
+       "D (developing)": 0.357745
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.032142,
+      "runaway": false,
+      "inflation_peak": 0.0033840000000000536,
+      "inflation_final": -1.1626172063627926e-05,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.493564,
+       "B (non-reserve adv.)": 0.458939,
+       "C (emerging)": 0.413095,
+       "D (developing)": 0.345874
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.043216,
+      "runaway": false,
+      "inflation_peak": 0.004513999999999907,
+      "inflation_final": -1.4378407083515121e-05,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.462023,
+       "B (non-reserve adv.)": 0.437325,
+       "C (emerging)": 0.399682,
+       "D (developing)": 0.334178
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.065509,
+      "runaway": false,
+      "inflation_peak": 0.006777999999999951,
+      "inflation_final": -0.0001857921548792385,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.418166,
+       "B (non-reserve adv.)": 0.414754,
+       "C (emerging)": 0.377744,
+       "D (developing)": 0.30976
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.086758,
+      "runaway": false,
+      "inflation_peak": 0.009047999999999945,
+      "inflation_final": -0.0008348150994883508,
+      "gap_max": 0.09325127030702074,
+      "insolvent_blocs": 1,
+      "first_default_year": 30.0,
+      "demand_share_solvent": 0.8572269326683292,
+      "real_value": {
+       "A (reserve)": 0.392115,
+       "B (non-reserve adv.)": 0.399088,
+       "C (emerging)": 0.36124,
+       "D (developing)": 0.290991
+      },
+      "gap_per_u": 4.662563515351037
+     },
+     "0.03": {
+      "world_price": 1.138315,
+      "runaway": false,
+      "inflation_peak": 0.013601999999999892,
+      "inflation_final": 0.002448185216660015,
+      "gap_max": 0.139930580405067,
+      "insolvent_blocs": 1,
+      "first_default_year": 26.0,
+      "demand_share_solvent": 0.8673458740051415,
+      "real_value": {
+       "A (reserve)": 0.364633,
+       "B (non-reserve adv.)": 0.381867,
+       "C (emerging)": 0.337862,
+       "D (developing)": 0.315511
+      },
+      "gap_per_u": 4.664352680168901
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.005558,
+      "runaway": false,
+      "inflation_peak": 0.0005850000000000577,
+      "inflation_final": -5.966800720735854e-06,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.576366,
+       "B (non-reserve adv.)": 0.536029,
+       "C (emerging)": 0.456727,
+       "D (developing)": 0.374575
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.011102,
+      "runaway": false,
+      "inflation_peak": 0.0011699999999998933,
+      "inflation_final": -1.7802041300862825e-05,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.558796,
+       "B (non-reserve adv.)": 0.519165,
+       "C (emerging)": 0.444255,
+       "D (developing)": 0.366407
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.01663,
+      "runaway": false,
+      "inflation_peak": 0.001754999999999951,
+      "inflation_final": -3.344271066951787e-05,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.541875,
+       "B (non-reserve adv.)": 0.502968,
+       "C (emerging)": 0.433195,
+       "D (developing)": 0.358488
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.022146,
+      "runaway": false,
+      "inflation_peak": 0.0023420000000000663,
+      "inflation_final": -5.087077063337109e-05,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.525553,
+       "B (non-reserve adv.)": 0.487421,
+       "C (emerging)": 0.423184,
+       "D (developing)": 0.350791
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.033198,
+      "runaway": false,
+      "inflation_peak": 0.0035160000000000746,
+      "inflation_final": -7.452033582533435e-05,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.494312,
+       "B (non-reserve adv.)": 0.458434,
+       "C (emerging)": 0.405487,
+       "D (developing)": 0.335968
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.04428,
+      "runaway": false,
+      "inflation_peak": 0.0046919999999999185,
+      "inflation_final": -0.00012542954832905906,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.46488,
+       "B (non-reserve adv.)": 0.435566,
+       "C (emerging)": 0.390092,
+       "D (developing)": 0.321505
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.066203,
+      "runaway": false,
+      "inflation_peak": 0.007050000000000001,
+      "inflation_final": -0.00047435617398927654,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.423545,
+       "B (non-reserve adv.)": 0.410633,
+       "C (emerging)": 0.364448,
+       "D (developing)": 0.291771
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.011171,
+      "runaway": false,
+      "inflation_peak": 0.0012339999999999574,
+      "inflation_final": -2.7689900800820233e-05,
+      "gap_max": 0.01277463679954205,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.573566,
+       "B (non-reserve adv.)": 0.532209,
+       "C (emerging)": 0.454104,
+       "D (developing)": 0.373331
+      },
+      "gap_per_u": 5.10985471981682
+     },
+     "0.005": {
+      "world_price": 1.022367,
+      "runaway": false,
+      "inflation_peak": 0.0024690000000000545,
+      "inflation_final": -6.259591111779095e-05,
+      "gap_max": 0.02553138195090532,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.553419,
+       "B (non-reserve adv.)": 0.511846,
+       "C (emerging)": 0.439703,
+       "D (developing)": 0.364041
+      },
+      "gap_per_u": 5.106276390181064
+     },
+     "0.0075": {
+      "world_price": 1.033585,
+      "runaway": false,
+      "inflation_peak": 0.003705999999999987,
+      "inflation_final": -0.0001035124582564606,
+      "gap_max": 0.03830601875044737,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.534128,
+       "B (non-reserve adv.)": 0.492447,
+       "C (emerging)": 0.427143,
+       "D (developing)": 0.355105
+      },
+      "gap_per_u": 5.107469166726316
+     },
+     "0.01": {
+      "world_price": 1.044829,
+      "runaway": false,
+      "inflation_peak": 0.0049440000000000595,
+      "inflation_final": -0.0001464140052174212,
+      "gap_max": 0.05108065554998942,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.515621,
+       "B (non-reserve adv.)": 0.473975,
+       "C (emerging)": 0.415905,
+       "D (developing)": 0.346473
+      },
+      "gap_per_u": 5.108065554998942
+     },
+     "0.015": {
+      "world_price": 1.06746,
+      "runaway": false,
+      "inflation_peak": 0.007425000000000015,
+      "inflation_final": -0.00022384585917933908,
+      "gap_max": 0.0766299291490733,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.480518,
+       "B (non-reserve adv.)": 0.440536,
+       "C (emerging)": 0.396238,
+       "D (developing)": 0.329959
+      },
+      "gap_per_u": 5.108661943271553
+     },
+     "0.02": {
+      "world_price": 1.090276,
+      "runaway": false,
+      "inflation_peak": 0.009911999999999921,
+      "inflation_final": -0.00034016505798839525,
+      "gap_max": 0.10219709439633573,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.448626,
+       "B (non-reserve adv.)": 0.421021,
+       "C (emerging)": 0.379383,
+       "D (developing)": 0.313987
+      },
+      "gap_per_u": 5.109854719816786
+     },
+     "0.03": {
+      "world_price": 1.136104,
+      "runaway": false,
+      "inflation_peak": 0.014904000000000028,
+      "inflation_final": -0.0008759124087591719,
+      "gap_max": 0.15334931653903983,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.410957,
+       "B (non-reserve adv.)": 0.395591,
+       "C (emerging)": 0.351478,
+       "D (developing)": 0.281324
+      },
+      "gap_per_u": 5.1116438846346615
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.003498,
+      "runaway": false,
+      "inflation_peak": 0.0003409999999999247,
+      "inflation_final": 1.195831331957109e-05,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.580524,
+       "B (non-reserve adv.)": 0.540241,
+       "C (emerging)": 0.459492,
+       "D (developing)": 0.375867
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.006994,
+      "runaway": false,
+      "inflation_peak": 0.0006809999999999317,
+      "inflation_final": 2.08545810067573e-05,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.566815,
+       "B (non-reserve adv.)": 0.527269,
+       "C (emerging)": 0.449139,
+       "D (developing)": 0.368955
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.010489,
+      "runaway": false,
+      "inflation_peak": 0.0010209999999999386,
+      "inflation_final": 2.9689477752059545e-05,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.553474,
+       "B (non-reserve adv.)": 0.514665,
+       "C (emerging)": 0.439788,
+       "D (developing)": 0.362272
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.013981,
+      "runaway": false,
+      "inflation_peak": 0.0013609999999999456,
+      "inflation_final": 3.5504884387194124e-05,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.540488,
+       "B (non-reserve adv.)": 0.502415,
+       "C (emerging)": 0.431213,
+       "D (developing)": 0.355791
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.020965,
+      "runaway": false,
+      "inflation_peak": 0.002038999999999902,
+      "inflation_final": 4.505744334259987e-05,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.515535,
+       "B (non-reserve adv.)": 0.478919,
+       "C (emerging)": 0.415778,
+       "D (developing)": 0.343358
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.027952,
+      "runaway": false,
+      "inflation_peak": 0.002715000000000023,
+      "inflation_final": 5.253439543606575e-05,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.491859,
+       "B (non-reserve adv.)": 0.456674,
+       "C (emerging)": 0.401994,
+       "D (developing)": 0.331538
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.041962,
+      "runaway": false,
+      "inflation_peak": 0.004064999999999985,
+      "inflation_final": 6.334605373292668e-05,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.449211,
+       "B (non-reserve adv.)": 0.424208,
+       "C (emerging)": 0.37776,
+       "D (developing)": 0.309455
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   },
+   "cpi_indexed": {
+    "ubi": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.016365,
+      "runaway": false,
+      "inflation_peak": 0.0011350000000001081,
+      "inflation_final": 0.0002755674968137889,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000146,
+       "B (non-reserve adv.)": 0.999369,
+       "C (emerging)": 0.996628,
+       "D (developing)": 0.99501
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.034145,
+      "runaway": false,
+      "inflation_peak": 0.0022720000000000518,
+      "inflation_final": 0.000694775731619135,
+      "gap_max": 0.023704194855112215,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998679,
+       "B (non-reserve adv.)": 0.998305,
+       "C (emerging)": 0.996187,
+       "D (developing)": 0.994293
+      },
+      "gap_per_u": 4.740838971022443
+     },
+     "0.0075": {
+      "world_price": 1.053547,
+      "runaway": false,
+      "inflation_peak": 0.003409999999999913,
+      "inflation_final": 0.0011916833049350206,
+      "gap_max": 0.03774229976275101,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997246,
+       "B (non-reserve adv.)": 0.997708,
+       "C (emerging)": 0.995822,
+       "D (developing)": 0.993214
+      },
+      "gap_per_u": 5.032306635033468
+     },
+     "0.01": {
+      "world_price": 1.074172,
+      "runaway": false,
+      "inflation_peak": 0.004548999999999914,
+      "inflation_final": 0.0016467643784163766,
+      "gap_max": 0.051881940508428315,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996645,
+       "B (non-reserve adv.)": 0.997698,
+       "C (emerging)": 0.995595,
+       "D (developing)": 0.991528
+      },
+      "gap_per_u": 5.1881940508428315
+     },
+     "0.015": {
+      "world_price": 1.116926,
+      "runaway": false,
+      "inflation_peak": 0.006831999999999949,
+      "inflation_final": 0.001980770024347045,
+      "gap_max": 0.08310972514323023,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8662776794681717,
+      "real_value": {
+       "A (reserve)": 0.99753,
+       "B (non-reserve adv.)": 0.999124,
+       "C (emerging)": 0.995935,
+       "D (developing)": 0.96984
+      },
+      "gap_per_u": 5.540648342882015
+     },
+     "0.02": {
+      "world_price": 1.168677,
+      "runaway": false,
+      "inflation_peak": 0.009120000000000017,
+      "inflation_final": 0.005905410151004986,
+      "gap_max": 0.14152067382903555,
+      "insolvent_blocs": 1,
+      "first_default_year": 27.0,
+      "demand_share_solvent": 0.8758701433070437,
+      "real_value": {
+       "A (reserve)": 0.997736,
+       "B (non-reserve adv.)": 0.999839,
+       "C (emerging)": 0.996,
+       "D (developing)": 0.968158
+      },
+      "gap_per_u": 7.076033691451777
+     },
+     "0.03": {
+      "world_price": 1.295846,
+      "runaway": false,
+      "inflation_peak": 0.013711000000000029,
+      "inflation_final": 0.01118206873733918,
+      "gap_max": 0.2423567439884795,
+      "insolvent_blocs": 1,
+      "first_default_year": 23.0,
+      "demand_share_solvent": 0.8937339470963008,
+      "real_value": {
+       "A (reserve)": 0.995575,
+       "B (non-reserve adv.)": 0.997975,
+       "C (emerging)": 0.995402,
+       "D (developing)": 0.964053
+      },
+      "gap_per_u": 8.078558132949317
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.008488,
+      "runaway": false,
+      "inflation_peak": 0.0005889999999999507,
+      "inflation_final": 0.00014578401552656217,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000749,
+       "B (non-reserve adv.)": 1.000014,
+       "C (emerging)": 0.99685,
+       "D (developing)": 0.995266
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.017282,
+      "runaway": false,
+      "inflation_peak": 0.0011790000000000411,
+      "inflation_final": 0.00030974456398302763,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000132,
+       "B (non-reserve adv.)": 0.999382,
+       "C (emerging)": 0.996542,
+       "D (developing)": 0.994838
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.02639,
+      "runaway": false,
+      "inflation_peak": 0.0017689999999999095,
+      "inflation_final": 0.0004932331530660417,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.9995,
+       "B (non-reserve adv.)": 0.998754,
+       "C (emerging)": 0.996249,
+       "D (developing)": 0.994391
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.035849,
+      "runaway": false,
+      "inflation_peak": 0.0023599999999999177,
+      "inflation_final": 0.0007110334813686947,
+      "gap_max": 0.024636615107280102,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998826,
+       "B (non-reserve adv.)": 0.998164,
+       "C (emerging)": 0.995973,
+       "D (developing)": 0.99391
+      },
+      "gap_per_u": 2.46366151072801
+     },
+     "0.015": {
+      "world_price": 1.05584,
+      "runaway": false,
+      "inflation_peak": 0.003543000000000074,
+      "inflation_final": 0.0011748519108174538,
+      "gap_max": 0.038520477779877105,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997545,
+       "B (non-reserve adv.)": 0.997537,
+       "C (emerging)": 0.995495,
+       "D (developing)": 0.992509
+      },
+      "gap_per_u": 2.5680318519918073
+     },
+     "0.02": {
+      "world_price": 1.076908,
+      "runaway": false,
+      "inflation_peak": 0.0047280000000000655,
+      "inflation_final": 0.0015363783136295162,
+      "gap_max": 0.05271220518930653,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997066,
+       "B (non-reserve adv.)": 0.997641,
+       "C (emerging)": 0.995141,
+       "D (developing)": 0.990308
+      },
+      "gap_per_u": 2.6356102594653263
+     },
+     "0.03": {
+      "world_price": 1.120511,
+      "runaway": false,
+      "inflation_peak": 0.007104999999999917,
+      "inflation_final": 0.002429783636534344,
+      "gap_max": 0.089719548708598,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8689236853864218,
+      "real_value": {
+       "A (reserve)": 0.998614,
+       "B (non-reserve adv.)": 1.000675,
+       "C (emerging)": 0.995369,
+       "D (developing)": 0.96672
+      },
+      "gap_per_u": 2.990651623619933
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.017396,
+      "runaway": false,
+      "inflation_peak": 0.0012430000000001051,
+      "inflation_final": 0.00029790786093308874,
+      "gap_max": 0.01277463679954205,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000664,
+       "B (non-reserve adv.)": 0.999895,
+       "C (emerging)": 0.996802,
+       "D (developing)": 0.995228
+      },
+      "gap_per_u": 5.10985471981682
+     },
+     "0.005": {
+      "world_price": 1.035699,
+      "runaway": false,
+      "inflation_peak": 0.0024880000000000457,
+      "inflation_final": 0.0006434577448253265,
+      "gap_max": 0.02553138195090532,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.99996,
+       "B (non-reserve adv.)": 0.999139,
+       "C (emerging)": 0.996454,
+       "D (developing)": 0.994758
+      },
+      "gap_per_u": 5.106276390181064
+     },
+     "0.0075": {
+      "world_price": 1.054949,
+      "runaway": false,
+      "inflation_peak": 0.003735000000000044,
+      "inflation_final": 0.0010456925910495851,
+      "gap_max": 0.03830601875044737,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999233,
+       "B (non-reserve adv.)": 0.998382,
+       "C (emerging)": 0.99612,
+       "D (developing)": 0.994263
+      },
+      "gap_per_u": 5.107469166726316
+     },
+     "0.01": {
+      "world_price": 1.075223,
+      "runaway": false,
+      "inflation_peak": 0.00498299999999996,
+      "inflation_final": 0.0015154676433222214,
+      "gap_max": 0.05132455476932951,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998463,
+       "B (non-reserve adv.)": 0.997677,
+       "C (emerging)": 0.995804,
+       "D (developing)": 0.993712
+      },
+      "gap_per_u": 5.132455476932951
+     },
+     "0.015": {
+      "world_price": 1.11876,
+      "runaway": false,
+      "inflation_peak": 0.007484000000000046,
+      "inflation_final": 0.0025342045931113777,
+      "gap_max": 0.08100659946334043,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997215,
+       "B (non-reserve adv.)": 0.997303,
+       "C (emerging)": 0.995258,
+       "D (developing)": 0.992092
+      },
+      "gap_per_u": 5.400439964222696
+     },
+     "0.02": {
+      "world_price": 1.165729,
+      "runaway": false,
+      "inflation_peak": 0.009989999999999943,
+      "inflation_final": 0.0034552364392299584,
+      "gap_max": 0.1103973801876692,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996905,
+       "B (non-reserve adv.)": 0.99747,
+       "C (emerging)": 0.994857,
+       "D (developing)": 0.989487
+      },
+      "gap_per_u": 5.51986900938346
+     },
+     "0.03": {
+      "world_price": 1.272192,
+      "runaway": false,
+      "inflation_peak": 0.015023000000000009,
+      "inflation_final": 0.007544354564073208,
+      "gap_max": 0.2034851796981032,
+      "insolvent_blocs": 1,
+      "first_default_year": 28.0,
+      "demand_share_solvent": 0.8660428359904961,
+      "real_value": {
+       "A (reserve)": 0.998548,
+       "B (non-reserve adv.)": 1.000514,
+       "C (emerging)": 0.994943,
+       "D (developing)": 0.965914
+      },
+      "gap_per_u": 6.782839323270107
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.005327,
+      "runaway": false,
+      "inflation_peak": 0.0003429999999999822,
+      "inflation_final": 0.00011340879992616237,
+      "gap_max": 0.0037814821337920357,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000874,
+       "B (non-reserve adv.)": 1.000148,
+       "C (emerging)": 0.996911,
+       "D (developing)": 0.995357
+      },
+      "gap_per_u": 1.5125928535168143
+     },
+     "0.005": {
+      "world_price": 1.010802,
+      "runaway": false,
+      "inflation_peak": 0.0006859999999999644,
+      "inflation_final": 0.0002374916135774452,
+      "gap_max": 0.00771836764294509,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000383,
+       "B (non-reserve adv.)": 0.999649,
+       "C (emerging)": 0.996652,
+       "D (developing)": 0.995032
+      },
+      "gap_per_u": 1.543673528589018
+     },
+     "0.0075": {
+      "world_price": 1.016423,
+      "runaway": false,
+      "inflation_peak": 0.0010289999999999466,
+      "inflation_final": 0.000370061621165263,
+      "gap_max": 0.011810656527459829,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999886,
+       "B (non-reserve adv.)": 0.999146,
+       "C (emerging)": 0.996405,
+       "D (developing)": 0.994699
+      },
+      "gap_per_u": 1.5747542036613105
+     },
+     "0.01": {
+      "world_price": 1.022194,
+      "runaway": false,
+      "inflation_peak": 0.001371000000000011,
+      "inflation_final": 0.0005148443525686552,
+      "gap_max": 0.01607906923738378,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999383,
+       "B (non-reserve adv.)": 0.998636,
+       "C (emerging)": 0.996162,
+       "D (developing)": 0.994357
+      },
+      "gap_per_u": 1.607906923738378
+     },
+     "0.015": {
+      "world_price": 1.034199,
+      "runaway": false,
+      "inflation_peak": 0.0020540000000000003,
+      "inflation_final": 0.0008361276836652554,
+      "gap_max": 0.025133905908436338,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998354,
+       "B (non-reserve adv.)": 0.997606,
+       "C (emerging)": 0.995675,
+       "D (developing)": 0.993644
+      },
+      "gap_per_u": 1.6755937272290893
+     },
+     "0.02": {
+      "world_price": 1.046832,
+      "runaway": false,
+      "inflation_peak": 0.0027360000000000717,
+      "inflation_final": 0.0012012517502313358,
+      "gap_max": 0.03489323788112664,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997343,
+       "B (non-reserve adv.)": 0.997005,
+       "C (emerging)": 0.995184,
+       "D (developing)": 0.992895
+      },
+      "gap_per_u": 1.7446618940563319
+     },
+     "0.03": {
+      "world_price": 1.073875,
+      "runaway": false,
+      "inflation_peak": 0.0040960000000000996,
+      "inflation_final": 0.0020369658446641736,
+      "gap_max": 0.05593485490504846,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996286,
+       "B (non-reserve adv.)": 0.996243,
+       "C (emerging)": 0.994244,
+       "D (developing)": 0.991099
+      },
+      "gap_per_u": 1.8644951635016154
+     }
+    }
+   }
+  },
+  "0.35": {
+   "gdp_linked": {
+    "ubi": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.035015,
+      "runaway": false,
+      "inflation_peak": 0.003921000000000063,
+      "inflation_final": 0.0,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.07054,
+      "runaway": false,
+      "inflation_peak": 0.007854000000000028,
+      "inflation_final": 0.00011210552867102486,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.106992,
+      "runaway": false,
+      "inflation_peak": 0.01180200000000009,
+      "inflation_final": 0.00010570299265943994,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.143678,
+      "runaway": false,
+      "inflation_peak": 0.015762000000000054,
+      "inflation_final": -0.0002430163397892926,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.215258,
+      "runaway": false,
+      "inflation_peak": 0.02372400000000008,
+      "inflation_final": 6.171909909880036e-05,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.864991145484197,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.31355,
+      "runaway": false,
+      "inflation_peak": 0.03173899999999996,
+      "inflation_final": 0.008908162512903717,
+      "gap_max": 0.09325127030702074,
+      "insolvent_blocs": 1,
+      "first_default_year": 27.0,
+      "demand_share_solvent": 0.8738821749335609,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.662563515351037
+     },
+     "0.03": {
+      "world_price": 1.553114,
+      "runaway": false,
+      "inflation_peak": 0.047930999999999946,
+      "inflation_final": 0.015843510099804448,
+      "gap_max": 0.139930580405067,
+      "insolvent_blocs": 1,
+      "first_default_year": 23.0,
+      "demand_share_solvent": 0.8896743246654885,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.664352680168901
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.018685,
+      "runaway": false,
+      "inflation_peak": 0.0020340000000000913,
+      "inflation_final": 3.730438513049883e-05,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.03729,
+      "runaway": false,
+      "inflation_peak": 0.004072999999999993,
+      "inflation_final": 4.049176281872846e-05,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.055834,
+      "runaway": false,
+      "inflation_peak": 0.00611600000000001,
+      "inflation_final": 2.5572855645084047e-05,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.074398,
+      "runaway": false,
+      "inflation_peak": 0.00816299999999992,
+      "inflation_final": 2.6992588207708224e-05,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.111554,
+      "runaway": false,
+      "inflation_peak": 0.012269000000000085,
+      "inflation_final": -0.00014572066966744845,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.148159,
+      "runaway": false,
+      "inflation_peak": 0.016393000000000102,
+      "inflation_final": -0.0008336836022789784,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.221662,
+      "runaway": false,
+      "inflation_peak": 0.02469100000000002,
+      "inflation_final": 0.0016168042699375995,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8641268070098532,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.039907,
+      "runaway": false,
+      "inflation_peak": 0.0043079999999999785,
+      "inflation_final": 0.00011348456273330143,
+      "gap_max": 0.012792528447720608,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117011379088243
+     },
+     "0.005": {
+      "world_price": 1.080728,
+      "runaway": false,
+      "inflation_peak": 0.00863400000000003,
+      "inflation_final": 0.0001795408566502843,
+      "gap_max": 0.025567165247262658,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.1134330494525315
+     },
+     "0.0075": {
+      "world_price": 1.122558,
+      "runaway": false,
+      "inflation_peak": 0.012979999999999992,
+      "inflation_final": 0.00022899382607688423,
+      "gap_max": 0.038359693694983266,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.114625825997769
+     },
+     "0.01": {
+      "world_price": 1.165542,
+      "runaway": false,
+      "inflation_peak": 0.017344999999999944,
+      "inflation_final": 0.00024887320510935673,
+      "gap_max": 0.051152222142703874,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.115222214270387
+     },
+     "0.015": {
+      "world_price": 1.254758,
+      "runaway": false,
+      "inflation_peak": 0.026132999999999962,
+      "inflation_final": -0.00012988865434548913,
+      "gap_max": 0.07675517068632365,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117011379088243
+     },
+     "0.02": {
+      "world_price": 1.345124,
+      "runaway": false,
+      "inflation_peak": 0.034998000000000085,
+      "inflation_final": -0.0019699075293502233,
+      "gap_max": 0.10235811922994364,
+      "insolvent_blocs": 1,
+      "first_default_year": 30.0,
+      "demand_share_solvent": 0.8563192111175172,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117905961497182
+     },
+     "0.03": {
+      "world_price": 1.598621,
+      "runaway": false,
+      "inflation_peak": 0.05296300000000009,
+      "inflation_final": 0.012874603766962034,
+      "gap_max": 0.15359979961354053,
+      "insolvent_blocs": 1,
+      "first_default_year": 26.0,
+      "demand_share_solvent": 0.8690913853263361,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.119993320451352
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.012027,
+      "runaway": false,
+      "inflation_peak": 0.0011859999999999093,
+      "inflation_final": 8.992663567664039e-05,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.02405,
+      "runaway": false,
+      "inflation_peak": 0.002370999999999901,
+      "inflation_final": 0.00016408140781831726,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.036074,
+      "runaway": false,
+      "inflation_peak": 0.0035559999999998926,
+      "inflation_final": 0.00022976610196967506,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.048106,
+      "runaway": false,
+      "inflation_peak": 0.0047399999999999665,
+      "inflation_final": 0.00028726719189142713,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.072232,
+      "runaway": false,
+      "inflation_peak": 0.007107999999999892,
+      "inflation_final": 0.0003890596791424894,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.096489,
+      "runaway": false,
+      "inflation_peak": 0.009473999999999982,
+      "inflation_final": 0.0004808560880760204,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.145774,
+      "runaway": false,
+      "inflation_peak": 0.014200999999999908,
+      "inflation_final": 0.0006611255553412576,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   },
+   "fixed_nominal": {
+    "ubi": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.023233,
+      "runaway": false,
+      "inflation_peak": 0.003883000000000081,
+      "inflation_final": -0.0003224032130898502,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.551701,
+       "B (non-reserve adv.)": 0.508029,
+       "C (emerging)": 0.440592,
+       "D (developing)": 0.36667
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.046517,
+      "runaway": false,
+      "inflation_peak": 0.00777899999999998,
+      "inflation_final": -0.000570138494949135,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.511899,
+       "B (non-reserve adv.)": 0.467656,
+       "C (emerging)": 0.417699,
+       "D (developing)": 0.351501
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.070479,
+      "runaway": false,
+      "inflation_peak": 0.01168799999999992,
+      "inflation_final": -0.0007560984944304794,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.473827,
+       "B (non-reserve adv.)": 0.434929,
+       "C (emerging)": 0.399345,
+       "D (developing)": 0.337226
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.094894,
+      "runaway": false,
+      "inflation_peak": 0.015609999999999902,
+      "inflation_final": -0.0010382908528216994,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.440195,
+       "B (non-reserve adv.)": 0.417965,
+       "C (emerging)": 0.38401,
+       "D (developing)": 0.323387
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.143766,
+      "runaway": false,
+      "inflation_peak": 0.02349200000000007,
+      "inflation_final": -0.0023141626229153944,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.400819,
+       "B (non-reserve adv.)": 0.394498,
+       "C (emerging)": 0.359213,
+       "D (developing)": 0.294759
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.190198,
+      "runaway": false,
+      "inflation_peak": 0.031427000000000094,
+      "inflation_final": -0.002525955152981929,
+      "gap_max": 0.09325127030702074,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8646283360923809,
+      "real_value": {
+       "A (reserve)": 0.377167,
+       "B (non-reserve adv.)": 0.377988,
+       "C (emerging)": 0.340824,
+       "D (developing)": 0.281062
+      },
+      "gap_per_u": 4.662563515351037
+     },
+     "0.03": {
+      "world_price": 1.334907,
+      "runaway": false,
+      "inflation_peak": 0.04745099999999991,
+      "inflation_final": 0.009890046707831779,
+      "gap_max": 0.139930580405067,
+      "insolvent_blocs": 1,
+      "first_default_year": 26.0,
+      "demand_share_solvent": 0.8776969380754998,
+      "real_value": {
+       "A (reserve)": 0.352676,
+       "B (non-reserve adv.)": 0.360689,
+       "C (emerging)": 0.313983,
+       "D (developing)": 0.299277
+      },
+      "gap_per_u": 4.664352680168901
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.012228,
+      "runaway": false,
+      "inflation_peak": 0.0020139999999999603,
+      "inflation_final": -0.00014816600123679358,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.572142,
+       "B (non-reserve adv.)": 0.530318,
+       "C (emerging)": 0.452717,
+       "D (developing)": 0.372713
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.024367,
+      "runaway": false,
+      "inflation_peak": 0.0040320000000000356,
+      "inflation_final": -0.00031424168698979127,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.55072,
+       "B (non-reserve adv.)": 0.508277,
+       "C (emerging)": 0.437322,
+       "D (developing)": 0.362916
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.036413,
+      "runaway": false,
+      "inflation_peak": 0.006054000000000004,
+      "inflation_final": -0.0004937676302529947,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.530294,
+       "B (non-reserve adv.)": 0.487399,
+       "C (emerging)": 0.424064,
+       "D (developing)": 0.353556
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.048392,
+      "runaway": false,
+      "inflation_peak": 0.008081000000000005,
+      "inflation_final": -0.0006701013730883165,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.51077,
+       "B (non-reserve adv.)": 0.467633,
+       "C (emerging)": 0.412332,
+       "D (developing)": 0.344562
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.072376,
+      "runaway": false,
+      "inflation_peak": 0.01214599999999999,
+      "inflation_final": -0.0009846911730867491,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.473985,
+       "B (non-reserve adv.)": 0.43362,
+       "C (emerging)": 0.392073,
+       "D (developing)": 0.327466
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.096358,
+      "runaway": false,
+      "inflation_peak": 0.01622699999999999,
+      "inflation_final": -0.0014190520950601027,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.441522,
+       "B (non-reserve adv.)": 0.415465,
+       "C (emerging)": 0.374961,
+       "D (developing)": 0.311014
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.14305,
+      "runaway": false,
+      "inflation_peak": 0.02443799999999996,
+      "inflation_final": -0.003313423725857856,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.40597,
+       "B (non-reserve adv.)": 0.390615,
+       "C (emerging)": 0.346853,
+       "D (developing)": 0.277343
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.024398,
+      "runaway": false,
+      "inflation_peak": 0.004253000000000062,
+      "inflation_final": -0.00032886551157129684,
+      "gap_max": 0.01277463679954205,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.565041,
+       "B (non-reserve adv.)": 0.52074,
+       "C (emerging)": 0.446261,
+       "D (developing)": 0.369614
+      },
+      "gap_per_u": 5.10985471981682
+     },
+     "0.005": {
+      "world_price": 1.048746,
+      "runaway": false,
+      "inflation_peak": 0.008521999999999919,
+      "inflation_final": -0.0006832065542092813,
+      "gap_max": 0.02553138195090532,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.537345,
+       "B (non-reserve adv.)": 0.490375,
+       "C (emerging)": 0.426711,
+       "D (developing)": 0.357208
+      },
+      "gap_per_u": 5.106276390181064
+     },
+     "0.0075": {
+      "world_price": 1.073042,
+      "runaway": false,
+      "inflation_peak": 0.012807000000000013,
+      "inflation_final": -0.0010501131105877803,
+      "gap_max": 0.03830601875044737,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.511384,
+       "B (non-reserve adv.)": 0.462279,
+       "C (emerging)": 0.410587,
+       "D (developing)": 0.345593
+      },
+      "gap_per_u": 5.107469166726316
+     },
+     "0.01": {
+      "world_price": 1.097344,
+      "runaway": false,
+      "inflation_peak": 0.017106999999999983,
+      "inflation_final": -0.0014032392805076732,
+      "gap_max": 0.05108065554998942,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.486957,
+       "B (non-reserve adv.)": 0.436474,
+       "C (emerging)": 0.396684,
+       "D (developing)": 0.334605
+      },
+      "gap_per_u": 5.108065554998942
+     },
+     "0.015": {
+      "world_price": 1.146324,
+      "runaway": false,
+      "inflation_peak": 0.025754999999999972,
+      "inflation_final": -0.002074506379781793,
+      "gap_max": 0.0766299291490733,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.442767,
+       "B (non-reserve adv.)": 0.410955,
+       "C (emerging)": 0.373472,
+       "D (developing)": 0.314228
+      },
+      "gap_per_u": 5.108661943271553
+     },
+     "0.02": {
+      "world_price": 1.196073,
+      "runaway": false,
+      "inflation_peak": 0.034467000000000025,
+      "inflation_final": -0.002837903519617324,
+      "gap_max": 0.10219709439633573,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.417722,
+       "B (non-reserve adv.)": 0.391995,
+       "C (emerging)": 0.354041,
+       "D (developing)": 0.294757
+      },
+      "gap_per_u": 5.109854719816786
+     },
+     "0.03": {
+      "world_price": 1.293118,
+      "runaway": false,
+      "inflation_peak": 0.05208199999999996,
+      "inflation_final": -0.006033968552646929,
+      "gap_max": 0.15334931653903983,
+      "insolvent_blocs": 1,
+      "first_default_year": 30.0,
+      "demand_share_solvent": 0.843669096267973,
+      "real_value": {
+       "A (reserve)": 0.3851,
+       "B (non-reserve adv.)": 0.364229,
+       "C (emerging)": 0.322271,
+       "D (developing)": 0.254441
+      },
+      "gap_per_u": 5.1116438846346615
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.00781,
+      "runaway": false,
+      "inflation_peak": 0.0011730000000000906,
+      "inflation_final": -5.0602215979966836e-05,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.577926,
+       "B (non-reserve adv.)": 0.536718,
+       "C (emerging)": 0.456974,
+       "D (developing)": 0.374718
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.015604,
+      "runaway": false,
+      "inflation_peak": 0.0023459999999999592,
+      "inflation_final": -0.00010928262357057239,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.561784,
+       "B (non-reserve adv.)": 0.520458,
+       "C (emerging)": 0.444649,
+       "D (developing)": 0.366776
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.023378,
+      "runaway": false,
+      "inflation_peak": 0.00351900000000005,
+      "inflation_final": -0.00017390352848301038,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.546167,
+       "B (non-reserve adv.)": 0.504791,
+       "C (emerging)": 0.433722,
+       "D (developing)": 0.35916
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.031136,
+      "runaway": false,
+      "inflation_peak": 0.004691000000000001,
+      "inflation_final": -0.00024336160917293181,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.531056,
+       "B (non-reserve adv.)": 0.489688,
+       "C (emerging)": 0.423853,
+       "D (developing)": 0.35183
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.046618,
+      "runaway": false,
+      "inflation_peak": 0.007033999999999985,
+      "inflation_final": -0.000391584561253433,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.50226,
+       "B (non-reserve adv.)": 0.461065,
+       "C (emerging)": 0.406393,
+       "D (developing)": 0.33789
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.062089,
+      "runaway": false,
+      "inflation_peak": 0.009374999999999911,
+      "inflation_final": -0.0005467360516434594,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.475253,
+       "B (non-reserve adv.)": 0.435923,
+       "C (emerging)": 0.391049,
+       "D (developing)": 0.324769
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.093276,
+      "runaway": false,
+      "inflation_peak": 0.014054000000000011,
+      "inflation_final": -0.0008124917174284763,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.431913,
+       "B (non-reserve adv.)": 0.407029,
+       "C (emerging)": 0.364668,
+       "D (developing)": 0.300653
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   },
+   "cpi_indexed": {
+    "ubi": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.038777,
+      "runaway": false,
+      "inflation_peak": 0.003913999999999973,
+      "inflation_final": 0.00038232631599210976,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999931,
+       "B (non-reserve adv.)": 0.99908,
+       "C (emerging)": 0.996536,
+       "D (developing)": 0.994929
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.08289,
+      "runaway": false,
+      "inflation_peak": 0.007840999999999987,
+      "inflation_final": 0.0012232251908572689,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998215,
+       "B (non-reserve adv.)": 0.997729,
+       "C (emerging)": 0.996012,
+       "D (developing)": 0.99408
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.132544,
+      "runaway": false,
+      "inflation_peak": 0.011781000000000041,
+      "inflation_final": 0.0021573197558457657,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996895,
+       "B (non-reserve adv.)": 0.997495,
+       "C (emerging)": 0.995589,
+       "D (developing)": 0.99273
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.186307,
+      "runaway": false,
+      "inflation_peak": 0.015735000000000054,
+      "inflation_final": 0.002754748750684488,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996507,
+       "B (non-reserve adv.)": 0.997506,
+       "C (emerging)": 0.995348,
+       "D (developing)": 0.990558
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.305997,
+      "runaway": false,
+      "inflation_peak": 0.02368199999999998,
+      "inflation_final": 0.007410578606746432,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8731557118296699,
+      "real_value": {
+       "A (reserve)": 0.997791,
+       "B (non-reserve adv.)": 0.99924,
+       "C (emerging)": 0.995685,
+       "D (developing)": 0.968733
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.480077,
+      "runaway": false,
+      "inflation_peak": 0.031682999999999906,
+      "inflation_final": 0.019424537236332418,
+      "gap_max": 0.11473949214176926,
+      "insolvent_blocs": 1,
+      "first_default_year": 26.0,
+      "demand_share_solvent": 0.8858993661592224,
+      "real_value": {
+       "A (reserve)": 0.997545,
+       "B (non-reserve adv.)": 0.99908,
+       "C (emerging)": 0.995235,
+       "D (developing)": 0.966229
+      },
+      "gap_per_u": 5.736974607088463
+     },
+     "0.03": {
+      "world_price": 1.994336,
+      "runaway": false,
+      "inflation_peak": 0.047844999999999915,
+      "inflation_final": 0.03715822839119354,
+      "gap_max": 0.2040757125244761,
+      "insolvent_blocs": 1,
+      "first_default_year": 23.0,
+      "demand_share_solvent": 0.9034856007089941,
+      "real_value": {
+       "A (reserve)": 0.994362,
+       "B (non-reserve adv.)": 0.995388,
+       "C (emerging)": 0.993333,
+       "D (developing)": 0.960735
+      },
+      "gap_per_u": 6.80252375081587
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.019979,
+      "runaway": false,
+      "inflation_peak": 0.0020299999999999763,
+      "inflation_final": 0.00020102493297535773,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.00064,
+       "B (non-reserve adv.)": 0.999863,
+       "C (emerging)": 0.996795,
+       "D (developing)": 0.995224
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.041065,
+      "runaway": false,
+      "inflation_peak": 0.0040640000000000676,
+      "inflation_final": 0.0004497418308913037,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.99991,
+       "B (non-reserve adv.)": 0.999073,
+       "C (emerging)": 0.996444,
+       "D (developing)": 0.994749
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.063329,
+      "runaway": false,
+      "inflation_peak": 0.006102000000000052,
+      "inflation_final": 0.0007670487165345463,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999152,
+       "B (non-reserve adv.)": 0.998281,
+       "C (emerging)": 0.996109,
+       "D (developing)": 0.994246
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.086951,
+      "runaway": false,
+      "inflation_peak": 0.008145000000000069,
+      "inflation_final": 0.0011909827956870789,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998353,
+       "B (non-reserve adv.)": 0.997607,
+       "C (emerging)": 0.995792,
+       "D (developing)": 0.993673
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.137781,
+      "runaway": false,
+      "inflation_peak": 0.012242000000000086,
+      "inflation_final": 0.001977922300941737,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997169,
+       "B (non-reserve adv.)": 0.997327,
+       "C (emerging)": 0.995258,
+       "D (developing)": 0.991963
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.191986,
+      "runaway": false,
+      "inflation_peak": 0.016356999999999955,
+      "inflation_final": 0.0021430306943537314,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996967,
+       "B (non-reserve adv.)": 0.997603,
+       "C (emerging)": 0.994896,
+       "D (developing)": 0.989135
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.317167,
+      "runaway": false,
+      "inflation_peak": 0.024636000000000102,
+      "inflation_final": 0.009481949271724632,
+      "gap_max": 0.0739305657718885,
+      "insolvent_blocs": 1,
+      "first_default_year": 28.0,
+      "demand_share_solvent": 0.8759393781533683,
+      "real_value": {
+       "A (reserve)": 0.998851,
+       "B (non-reserve adv.)": 1.000939,
+       "C (emerging)": 0.995056,
+       "D (developing)": 0.965636
+      },
+      "gap_per_u": 2.4643521923962837
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.041245,
+      "runaway": false,
+      "inflation_peak": 0.00428699999999993,
+      "inflation_final": 0.00043236180035455263,
+      "gap_max": 0.01277463679954205,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000443,
+       "B (non-reserve adv.)": 0.999588,
+       "C (emerging)": 0.996697,
+       "D (developing)": 0.995144
+      },
+      "gap_per_u": 5.10985471981682
+     },
+     "0.005": {
+      "world_price": 1.086352,
+      "runaway": false,
+      "inflation_peak": 0.008590000000000098,
+      "inflation_final": 0.0010265029422118488,
+      "gap_max": 0.02553138195090532,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999503,
+       "B (non-reserve adv.)": 0.998504,
+       "C (emerging)": 0.996265,
+       "D (developing)": 0.994573
+      },
+      "gap_per_u": 5.106276390181064
+     },
+     "0.0075": {
+      "world_price": 1.135671,
+      "runaway": false,
+      "inflation_peak": 0.01290900000000006,
+      "inflation_final": 0.001824271812971734,
+      "gap_max": 0.03830601875044737,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998512,
+       "B (non-reserve adv.)": 0.997545,
+       "C (emerging)": 0.995844,
+       "D (developing)": 0.993957
+      },
+      "gap_per_u": 5.107469166726316
+     },
+     "0.01": {
+      "world_price": 1.189017,
+      "runaway": false,
+      "inflation_peak": 0.017244000000000037,
+      "inflation_final": 0.0027577552378372783,
+      "gap_max": 0.05108065554998942,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997533,
+       "B (non-reserve adv.)": 0.99724,
+       "C (emerging)": 0.995465,
+       "D (developing)": 0.993191
+      },
+      "gap_per_u": 5.108065554998942
+     },
+     "0.015": {
+      "world_price": 1.307645,
+      "runaway": false,
+      "inflation_peak": 0.02596299999999996,
+      "inflation_final": 0.0046296189591577,
+      "gap_max": 0.0766299291490733,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996854,
+       "B (non-reserve adv.)": 0.99704,
+       "C (emerging)": 0.994817,
+       "D (developing)": 0.99086
+      },
+      "gap_per_u": 5.108661943271553
+     },
+     "0.02": {
+      "world_price": 1.440477,
+      "runaway": false,
+      "inflation_peak": 0.03474700000000008,
+      "inflation_final": 0.005571394265673435,
+      "gap_max": 0.10219709439633573,
+      "insolvent_blocs": 1,
+      "first_default_year": 30.0,
+      "demand_share_solvent": 0.8604879185313904,
+      "real_value": {
+       "A (reserve)": 0.997112,
+       "B (non-reserve adv.)": 0.997766,
+       "C (emerging)": 0.994479,
+       "D (developing)": 0.968339
+      },
+      "gap_per_u": 5.109854719816786
+     },
+     "0.03": {
+      "world_price": 1.82516,
+      "runaway": false,
+      "inflation_peak": 0.05251300000000003,
+      "inflation_final": 0.026639667004162426,
+      "gap_max": 0.16710006941350763,
+      "insolvent_blocs": 1,
+      "first_default_year": 27.0,
+      "demand_share_solvent": 0.8784309200014203,
+      "real_value": {
+       "A (reserve)": 0.998166,
+       "B (non-reserve adv.)": 0.999691,
+       "C (emerging)": 0.993685,
+       "D (developing)": 0.964069
+      },
+      "gap_per_u": 5.570002313783588
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 1.0,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": 0.0,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.012643,
+      "runaway": false,
+      "inflation_peak": 0.001182999999999934,
+      "inflation_final": 0.00018865091875963635,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000805,
+       "B (non-reserve adv.)": 1.000051,
+       "C (emerging)": 0.996871,
+       "D (developing)": 0.995329
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.0258,
+      "runaway": false,
+      "inflation_peak": 0.0023649999999999505,
+      "inflation_final": 0.00040082349235270875,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000241,
+       "B (non-reserve adv.)": 0.999451,
+       "C (emerging)": 0.996582,
+       "D (developing)": 0.994974
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.039479,
+      "runaway": false,
+      "inflation_peak": 0.003546000000000049,
+      "inflation_final": 0.0006401530976671843,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999668,
+       "B (non-reserve adv.)": 0.998842,
+       "C (emerging)": 0.996306,
+       "D (developing)": 0.994608
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.053703,
+      "runaway": false,
+      "inflation_peak": 0.0047280000000000655,
+      "inflation_final": 0.0009119034750171284,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999086,
+       "B (non-reserve adv.)": 0.998222,
+       "C (emerging)": 0.996032,
+       "D (developing)": 0.99423
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.083866,
+      "runaway": false,
+      "inflation_peak": 0.007088999999999901,
+      "inflation_final": 0.0015514878666995635,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.99789,
+       "B (non-reserve adv.)": 0.997239,
+       "C (emerging)": 0.995478,
+       "D (developing)": 0.993437
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.116241,
+      "runaway": false,
+      "inflation_peak": 0.009447999999999901,
+      "inflation_final": 0.0023067833257908177,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996987,
+       "B (non-reserve adv.)": 0.996707,
+       "C (emerging)": 0.994926,
+       "D (developing)": 0.992597
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.187611,
+      "runaway": false,
+      "inflation_peak": 0.014162999999999926,
+      "inflation_final": 0.004058978195990992,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996005,
+       "B (non-reserve adv.)": 0.995909,
+       "C (emerging)": 0.99386,
+       "D (developing)": 0.990465
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   }
+  },
+  "1": {
+   "gdp_linked": {
+    "ubi": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.048779,
+      "runaway": false,
+      "inflation_peak": 0.010763000000000078,
+      "inflation_final": -0.0003898252744027886,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.098182,
+      "runaway": false,
+      "inflation_peak": 0.021619000000000055,
+      "inflation_final": -0.0004669175703903017,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.148681,
+      "runaway": false,
+      "inflation_peak": 0.03256700000000001,
+      "inflation_final": -0.0009879833051694709,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.198531,
+      "runaway": false,
+      "inflation_peak": 0.04360999999999993,
+      "inflation_final": -0.002641247227897048,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.305214,
+      "runaway": false,
+      "inflation_peak": 0.06597600000000003,
+      "inflation_final": 0.007496707839895311,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8697296370622107,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.503065,
+      "runaway": false,
+      "inflation_peak": 0.08872100000000005,
+      "inflation_final": 0.026960826179194486,
+      "gap_max": 0.09325127030702074,
+      "insolvent_blocs": 1,
+      "first_default_year": 26.0,
+      "demand_share_solvent": 0.8810184590769475,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.662563515351037
+     },
+     "0.03": {
+      "world_price": 2.046437,
+      "runaway": false,
+      "inflation_peak": 0.135359,
+      "inflation_final": 0.040166452087080806,
+      "gap_max": 0.139930580405067,
+      "insolvent_blocs": 1,
+      "first_default_year": 23.0,
+      "demand_share_solvent": 0.8923542799830266,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 4.664352680168901
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.026286,
+      "runaway": false,
+      "inflation_peak": 0.005578000000000083,
+      "inflation_final": -0.00015587765941893483,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.052133,
+      "runaway": false,
+      "inflation_peak": 0.011182000000000025,
+      "inflation_final": -0.0003667392227598709,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.077633,
+      "runaway": false,
+      "inflation_peak": 0.016812999999999967,
+      "inflation_final": -0.0005842730391378836,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.103076,
+      "runaway": false,
+      "inflation_peak": 0.022470999999999908,
+      "inflation_final": -0.0007500652230628679,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.153511,
+      "runaway": false,
+      "inflation_peak": 0.03386800000000001,
+      "inflation_final": -0.0016003669851820668,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.201341,
+      "runaway": false,
+      "inflation_peak": 0.04537199999999997,
+      "inflation_final": -0.004163751570836038,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.317481,
+      "runaway": false,
+      "inflation_peak": 0.0687040000000001,
+      "inflation_final": 0.011659398739304327,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 1,
+      "first_default_year": 28.0,
+      "demand_share_solvent": 0.8690967929970552,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.056372,
+      "runaway": false,
+      "inflation_peak": 0.011837000000000097,
+      "inflation_final": -0.00024133398067616163,
+      "gap_max": 0.012792528447720608,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117011379088243
+     },
+     "0.005": {
+      "world_price": 1.113714,
+      "runaway": false,
+      "inflation_peak": 0.02381000000000011,
+      "inflation_final": -0.0005617675036344583,
+      "gap_max": 0.025567165247262658,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.1134330494525315
+     },
+     "0.0075": {
+      "world_price": 1.17265,
+      "runaway": false,
+      "inflation_peak": 0.03592200000000001,
+      "inflation_final": -0.0008375701773892796,
+      "gap_max": 0.038359693694983266,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.114625825997769
+     },
+     "0.01": {
+      "world_price": 1.233394,
+      "runaway": false,
+      "inflation_peak": 0.04817300000000002,
+      "inflation_final": -0.0013004048582996308,
+      "gap_max": 0.051152222142703874,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.115222214270387
+     },
+     "0.015": {
+      "world_price": 1.358663,
+      "runaway": false,
+      "inflation_peak": 0.07309900000000003,
+      "inflation_final": -0.004344888435517724,
+      "gap_max": 0.07675517068632365,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117011379088243
+     },
+     "0.02": {
+      "world_price": 1.510721,
+      "runaway": false,
+      "inflation_peak": 0.09860200000000008,
+      "inflation_final": 0.008824672488791263,
+      "gap_max": 0.10235811922994364,
+      "insolvent_blocs": 1,
+      "first_default_year": 28.0,
+      "demand_share_solvent": 0.8606627953544254,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.117905961497182
+     },
+     "0.03": {
+      "world_price": 2.095194,
+      "runaway": false,
+      "inflation_peak": 0.15138800000000008,
+      "inflation_final": 0.03822391449989482,
+      "gap_max": 0.15359979961354053,
+      "insolvent_blocs": 1,
+      "first_default_year": 24.0,
+      "demand_share_solvent": 0.8739311301132425,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 5.119993320451352
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.017273,
+      "runaway": false,
+      "inflation_peak": 0.003249999999999975,
+      "inflation_final": 8.847260888122932e-06,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.034439,
+      "runaway": false,
+      "inflation_peak": 0.0065029999999999255,
+      "inflation_final": -9.666982132339186e-06,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.051506,
+      "runaway": false,
+      "inflation_peak": 0.009760999999999909,
+      "inflation_final": -4.3744864733241684e-05,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.068508,
+      "runaway": false,
+      "inflation_peak": 0.013023000000000007,
+      "inflation_final": -8.890111669157541e-05,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.102451,
+      "runaway": false,
+      "inflation_peak": 0.019559000000000104,
+      "inflation_final": -0.0001850080034098145,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.136597,
+      "runaway": false,
+      "inflation_peak": 0.026111999999999913,
+      "inflation_final": -0.00024189178729006056,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.206593,
+      "runaway": false,
+      "inflation_peak": 0.039269999999999916,
+      "inflation_final": -0.0004183587413780776,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   },
+   "fixed_nominal": {
+    "ubi": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.030436,
+      "runaway": false,
+      "inflation_peak": 0.010658000000000056,
+      "inflation_final": -0.0007224725824079847,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.54374,
+       "B (non-reserve adv.)": 0.497592,
+       "C (emerging)": 0.433422,
+       "D (developing)": 0.36315
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.060784,
+      "runaway": false,
+      "inflation_peak": 0.021406000000000036,
+      "inflation_final": -0.0011957960706330262,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.497658,
+       "B (non-reserve adv.)": 0.449495,
+       "C (emerging)": 0.407073,
+       "D (developing)": 0.345575
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.092355,
+      "runaway": false,
+      "inflation_peak": 0.03224399999999994,
+      "inflation_final": -0.0016113435662332698,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.455163,
+       "B (non-reserve adv.)": 0.420929,
+       "C (emerging)": 0.387366,
+       "D (developing)": 0.329604
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.1245,
+      "runaway": false,
+      "inflation_peak": 0.043174000000000046,
+      "inflation_final": -0.0023298193813291457,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.42282,
+       "B (non-reserve adv.)": 0.404948,
+       "C (emerging)": 0.371353,
+       "D (developing)": 0.314261
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.185445,
+      "runaway": false,
+      "inflation_peak": 0.06530799999999992,
+      "inflation_final": -0.006324445301301718,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.388408,
+       "B (non-reserve adv.)": 0.38098,
+       "C (emerging)": 0.345739,
+       "D (developing)": 0.28244
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.257741,
+      "runaway": false,
+      "inflation_peak": 0.08780900000000003,
+      "inflation_final": 0.005590250322006884,
+      "gap_max": 0.09325127030702074,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8656450355005014,
+      "real_value": {
+       "A (reserve)": 0.367369,
+       "B (non-reserve adv.)": 0.364949,
+       "C (emerging)": 0.327037,
+       "D (developing)": 0.2795
+      },
+      "gap_per_u": 4.662563515351037
+     },
+     "0.03": {
+      "world_price": 1.540539,
+      "runaway": false,
+      "inflation_peak": 0.13392800000000005,
+      "inflation_final": 0.026111392711962944,
+      "gap_max": 0.139930580405067,
+      "insolvent_blocs": 1,
+      "first_default_year": 25.0,
+      "demand_share_solvent": 0.8826361632080041,
+      "real_value": {
+       "A (reserve)": 0.342305,
+       "B (non-reserve adv.)": 0.343301,
+       "C (emerging)": 0.296363,
+       "D (developing)": 0.293192
+      },
+      "gap_per_u": 4.664352680168901
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.016171,
+      "runaway": false,
+      "inflation_peak": 0.005521000000000109,
+      "inflation_final": -0.0003452950354246864,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.567748,
+       "B (non-reserve adv.)": 0.524504,
+       "C (emerging)": 0.448457,
+       "D (developing)": 0.370728
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.032021,
+      "runaway": false,
+      "inflation_peak": 0.011068000000000078,
+      "inflation_final": -0.0007184610602819497,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.542462,
+       "B (non-reserve adv.)": 0.497427,
+       "C (emerging)": 0.430096,
+       "D (developing)": 0.359364
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.047542,
+      "runaway": false,
+      "inflation_peak": 0.016639999999999988,
+      "inflation_final": -0.0011099392966188448,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.518662,
+       "B (non-reserve adv.)": 0.47222,
+       "C (emerging)": 0.414882,
+       "D (developing)": 0.348746
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.062861,
+      "runaway": false,
+      "inflation_peak": 0.022238999999999898,
+      "inflation_final": -0.0014552662977612707,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.496177,
+       "B (non-reserve adv.)": 0.448765,
+       "C (emerging)": 0.401905,
+       "D (developing)": 0.33873
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.093606,
+      "runaway": false,
+      "inflation_peak": 0.03351499999999996,
+      "inflation_final": -0.0020859719753406614,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.454991,
+       "B (non-reserve adv.)": 0.419154,
+       "C (emerging)": 0.380555,
+       "D (developing)": 0.320111
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.124273,
+      "runaway": false,
+      "inflation_peak": 0.04489499999999991,
+      "inflation_final": -0.0030822461381032618,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.424613,
+       "B (non-reserve adv.)": 0.402251,
+       "C (emerging)": 0.36296,
+       "D (developing)": 0.302308
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.178706,
+      "runaway": false,
+      "inflation_peak": 0.06797199999999992,
+      "inflation_final": -0.008706885024208244,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.393804,
+       "B (non-reserve adv.)": 0.377938,
+       "C (emerging)": 0.334343,
+       "D (developing)": 0.265571
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.031905,
+      "runaway": false,
+      "inflation_peak": 0.011676999999999937,
+      "inflation_final": -0.0006962844171740645,
+      "gap_max": 0.01277463679954205,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.556355,
+       "B (non-reserve adv.)": 0.509358,
+       "C (emerging)": 0.438216,
+       "D (developing)": 0.36581
+      },
+      "gap_per_u": 5.10985471981682
+     },
+     "0.005": {
+      "world_price": 1.063207,
+      "runaway": false,
+      "inflation_peak": 0.02346500000000007,
+      "inflation_final": -0.0014247823849184993,
+      "gap_max": 0.02553138195090532,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.521514,
+       "B (non-reserve adv.)": 0.469935,
+       "C (emerging)": 0.414358,
+       "D (developing)": 0.350761
+      },
+      "gap_per_u": 5.106276390181064
+     },
+     "0.0075": {
+      "world_price": 1.094019,
+      "runaway": false,
+      "inflation_peak": 0.03536500000000009,
+      "inflation_final": -0.0021361577071784543,
+      "gap_max": 0.03830601875044737,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.489841,
+       "B (non-reserve adv.)": 0.436948,
+       "C (emerging)": 0.396354,
+       "D (developing)": 0.33725
+      },
+      "gap_per_u": 5.107469166726316
+     },
+     "0.01": {
+      "world_price": 1.124897,
+      "runaway": false,
+      "inflation_peak": 0.04737799999999992,
+      "inflation_final": -0.0027084485864646846,
+      "gap_max": 0.05108065554998942,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.461302,
+       "B (non-reserve adv.)": 0.419558,
+       "C (emerging)": 0.381856,
+       "D (developing)": 0.32497
+      },
+      "gap_per_u": 5.108065554998942
+     },
+     "0.015": {
+      "world_price": 1.187846,
+      "runaway": false,
+      "inflation_peak": 0.07174299999999989,
+      "inflation_final": -0.003914419453356577,
+      "gap_max": 0.0766299291490733,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.421807,
+       "B (non-reserve adv.)": 0.394624,
+       "C (emerging)": 0.35785,
+       "D (developing)": 0.302301
+      },
+      "gap_per_u": 5.108661943271553
+     },
+     "0.02": {
+      "world_price": 1.251184,
+      "runaway": false,
+      "inflation_peak": 0.09656599999999993,
+      "inflation_final": -0.005598349424746463,
+      "gap_max": 0.10219709439633573,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.40115,
+       "B (non-reserve adv.)": 0.375069,
+       "C (emerging)": 0.337668,
+       "D (developing)": 0.280585
+      },
+      "gap_per_u": 5.109854719816786
+     },
+     "0.03": {
+      "world_price": 1.400682,
+      "runaway": false,
+      "inflation_peak": 0.1476010000000001,
+      "inflation_final": 0.014662705613640803,
+      "gap_max": 0.15334931653903983,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8490760163819797,
+      "real_value": {
+       "A (reserve)": 0.371659,
+       "B (non-reserve adv.)": 0.348839,
+       "C (emerging)": 0.305185,
+       "D (developing)": 0.251645
+      },
+      "gap_per_u": 5.1116438846346615
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.010576,
+      "runaway": false,
+      "inflation_peak": 0.003214999999999968,
+      "inflation_final": -0.0001503866519975139,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.575179,
+       "B (non-reserve adv.)": 0.533065,
+       "C (emerging)": 0.454259,
+       "D (developing)": 0.373464
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.021067,
+      "runaway": false,
+      "inflation_peak": 0.006434000000000051,
+      "inflation_final": -0.0003162357179922193,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.556514,
+       "B (non-reserve adv.)": 0.513481,
+       "C (emerging)": 0.439823,
+       "D (developing)": 0.364472
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.031455,
+      "runaway": false,
+      "inflation_peak": 0.009657000000000027,
+      "inflation_final": -0.0004932342601099426,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.538592,
+       "B (non-reserve adv.)": 0.494801,
+       "C (emerging)": 0.427283,
+       "D (developing)": 0.355965
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.041751,
+      "runaway": false,
+      "inflation_peak": 0.012883999999999896,
+      "inflation_final": -0.0006772461597934765,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.521376,
+       "B (non-reserve adv.)": 0.476975,
+       "C (emerging)": 0.416194,
+       "D (developing)": 0.347875
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.062141,
+      "runaway": false,
+      "inflation_peak": 0.01934999999999998,
+      "inflation_final": -0.0010533631911637809,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.488916,
+       "B (non-reserve adv.)": 0.443672,
+       "C (emerging)": 0.397116,
+       "D (developing)": 0.33269
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.082438,
+      "runaway": false,
+      "inflation_peak": 0.025832999999999995,
+      "inflation_final": -0.001414244477020099,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.459137,
+       "B (non-reserve adv.)": 0.421455,
+       "C (emerging)": 0.380943,
+       "D (developing)": 0.318665
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.123962,
+      "runaway": false,
+      "inflation_peak": 0.03885000000000005,
+      "inflation_final": -0.001922518508125859,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.418079,
+       "B (non-reserve adv.)": 0.394215,
+       "C (emerging)": 0.353691,
+       "D (developing)": 0.293221
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   },
+   "cpi_indexed": {
+    "ubi": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.057032,
+      "runaway": false,
+      "inflation_peak": 0.010744000000000087,
+      "inflation_final": 0.00029525323642953794,
+      "gap_max": 0.011647462964288424,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999755,
+       "B (non-reserve adv.)": 0.998858,
+       "C (emerging)": 0.996484,
+       "D (developing)": 0.994879
+      },
+      "gap_per_u": 4.65898518571537
+     },
+     "0.005": {
+      "world_price": 1.125757,
+      "runaway": false,
+      "inflation_peak": 0.02158199999999999,
+      "inflation_final": 0.0014963414362920702,
+      "gap_max": 0.023294925928576626,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997822,
+       "B (non-reserve adv.)": 0.997593,
+       "C (emerging)": 0.995918,
+       "D (developing)": 0.993904
+      },
+      "gap_per_u": 4.658985185715325
+     },
+     "0.0075": {
+      "world_price": 1.204754,
+      "runaway": false,
+      "inflation_peak": 0.032512000000000096,
+      "inflation_final": 0.0024830042354195836,
+      "gap_max": 0.03494238889286483,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996739,
+       "B (non-reserve adv.)": 0.997482,
+       "C (emerging)": 0.995486,
+       "D (developing)": 0.992254
+      },
+      "gap_per_u": 4.658985185715311
+     },
+     "0.01": {
+      "world_price": 1.289961,
+      "runaway": false,
+      "inflation_peak": 0.04353600000000002,
+      "inflation_final": 0.0018134147648463106,
+      "gap_max": 0.04660774350533181,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996635,
+       "B (non-reserve adv.)": 0.99763,
+       "C (emerging)": 0.995326,
+       "D (developing)": 0.989389
+      },
+      "gap_per_u": 4.660774350533181
+     },
+     "0.015": {
+      "world_price": 1.52663,
+      "runaway": false,
+      "inflation_peak": 0.0658669999999999,
+      "inflation_final": 0.02674211833195672,
+      "gap_max": 0.069920561082087,
+      "insolvent_blocs": 1,
+      "first_default_year": 28.0,
+      "demand_share_solvent": 0.8801404212637913,
+      "real_value": {
+       "A (reserve)": 0.998283,
+       "B (non-reserve adv.)": 0.999613,
+       "C (emerging)": 0.995497,
+       "D (developing)": 0.96748
+      },
+      "gap_per_u": 4.6613707388058
+     },
+     "0.02": {
+      "world_price": 1.951107,
+      "runaway": false,
+      "inflation_peak": 0.0885769999999999,
+      "inflation_final": 0.0474561257522641,
+      "gap_max": 0.09325127030702074,
+      "insolvent_blocs": 1,
+      "first_default_year": 25.0,
+      "demand_share_solvent": 0.8873239436619718,
+      "real_value": {
+       "A (reserve)": 0.996458,
+       "B (non-reserve adv.)": 0.996915,
+       "C (emerging)": 0.993699,
+       "D (developing)": 0.965517
+      },
+      "gap_per_u": 4.662563515351037
+     },
+     "0.03": {
+      "world_price": 3.276046,
+      "runaway": false,
+      "inflation_peak": 0.1351469999999999,
+      "inflation_final": 0.06298658695893411,
+      "gap_max": 0.139930580405067,
+      "insolvent_blocs": 1,
+      "first_default_year": 21.0,
+      "demand_share_solvent": 0.8984914391485425,
+      "real_value": {
+       "A (reserve)": 0.99132,
+       "B (non-reserve adv.)": 0.989471,
+       "C (emerging)": 0.989165,
+       "D (developing)": 0.960624
+      },
+      "gap_per_u": 4.664352680168901
+     }
+    },
+    "cash_t": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.029165,
+      "runaway": false,
+      "inflation_peak": 0.005565000000000042,
+      "inflation_final": 0.0001350791913907745,
+      "gap_max": 0.006047377084377192,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000553,
+       "B (non-reserve adv.)": 0.999747,
+       "C (emerging)": 0.99676,
+       "D (developing)": 0.9952
+      },
+      "gap_per_u": 2.418950833750877
+     },
+     "0.005": {
+      "world_price": 1.06061,
+      "runaway": false,
+      "inflation_peak": 0.011158000000000001,
+      "inflation_final": 0.0003574692684897851,
+      "gap_max": 0.012094754168754163,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999729,
+       "B (non-reserve adv.)": 0.99883,
+       "C (emerging)": 0.996386,
+       "D (developing)": 0.994692
+      },
+      "gap_per_u": 2.4189508337508325
+     },
+     "0.0075": {
+      "world_price": 1.094598,
+      "runaway": false,
+      "inflation_peak": 0.016775999999999902,
+      "inflation_final": 0.0007506100420835438,
+      "gap_max": 0.018142131253131133,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998858,
+       "B (non-reserve adv.)": 0.997905,
+       "C (emerging)": 0.996028,
+       "D (developing)": 0.994148
+      },
+      "gap_per_u": 2.418950833750818
+     },
+     "0.01": {
+      "world_price": 1.131354,
+      "runaway": false,
+      "inflation_peak": 0.022421999999999942,
+      "inflation_final": 0.0012894980692930158,
+      "gap_max": 0.024189508337508103,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997965,
+       "B (non-reserve adv.)": 0.997473,
+       "C (emerging)": 0.9957,
+       "D (developing)": 0.993475
+      },
+      "gap_per_u": 2.4189508337508103
+     },
+     "0.015": {
+      "world_price": 1.211106,
+      "runaway": false,
+      "inflation_peak": 0.0337940000000001,
+      "inflation_final": 0.0018753531280841784,
+      "gap_max": 0.036302154154440824,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.99706,
+       "B (non-reserve adv.)": 0.99735,
+       "C (emerging)": 0.995169,
+       "D (developing)": 0.991423
+      },
+      "gap_per_u": 2.420143610296055
+     },
+     "0.02": {
+      "world_price": 1.294379,
+      "runaway": false,
+      "inflation_peak": 0.0452729999999999,
+      "inflation_final": -0.00013131986506498272,
+      "gap_max": 0.048432691619552104,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.99722,
+       "B (non-reserve adv.)": 0.998017,
+       "C (emerging)": 0.994928,
+       "D (developing)": 0.987611
+      },
+      "gap_per_u": 2.421634580977605
+     },
+     "0.03": {
+      "world_price": 1.550995,
+      "runaway": false,
+      "inflation_peak": 0.06855600000000006,
+      "inflation_final": 0.027781330368153556,
+      "gap_max": 0.07271165819795322,
+      "insolvent_blocs": 1,
+      "first_default_year": 27.0,
+      "demand_share_solvent": 0.8802089481761303,
+      "real_value": {
+       "A (reserve)": 0.998332,
+       "B (non-reserve adv.)": 1.000185,
+       "C (emerging)": 0.994336,
+       "D (developing)": 0.965871
+      },
+      "gap_per_u": 2.423721939931774
+     }
+    },
+    "voucher": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.060784,
+      "runaway": false,
+      "inflation_peak": 0.011771999999999894,
+      "inflation_final": 0.00037627842717502524,
+      "gap_max": 0.01277463679954205,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000265,
+       "B (non-reserve adv.)": 0.999351,
+       "C (emerging)": 0.996635,
+       "D (developing)": 0.995092
+      },
+      "gap_per_u": 5.10985471981682
+     },
+     "0.005": {
+      "world_price": 1.130213,
+      "runaway": false,
+      "inflation_peak": 0.023657999999999957,
+      "inflation_final": 0.0010859292445350999,
+      "gap_max": 0.02553138195090532,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999123,
+       "B (non-reserve adv.)": 0.997994,
+       "C (emerging)": 0.996157,
+       "D (developing)": 0.994446
+      },
+      "gap_per_u": 5.106276390181064
+     },
+     "0.0075": {
+      "world_price": 1.208057,
+      "runaway": false,
+      "inflation_peak": 0.03565900000000011,
+      "inflation_final": 0.0021784739234349537,
+      "gap_max": 0.03830601875044737,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997941,
+       "B (non-reserve adv.)": 0.997412,
+       "C (emerging)": 0.995717,
+       "D (developing)": 0.993725
+      },
+      "gap_per_u": 5.107469166726316
+     },
+     "0.01": {
+      "world_price": 1.294374,
+      "runaway": false,
+      "inflation_peak": 0.04777600000000004,
+      "inflation_final": 0.00336425241505256,
+      "gap_max": 0.05108065554998942,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997229,
+       "B (non-reserve adv.)": 0.997182,
+       "C (emerging)": 0.995322,
+       "D (developing)": 0.992719
+      },
+      "gap_per_u": 5.108065554998942
+     },
+     "0.015": {
+      "world_price": 1.491022,
+      "runaway": false,
+      "inflation_peak": 0.07235900000000006,
+      "inflation_final": 0.0048130576596490116,
+      "gap_max": 0.0766299291490733,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996957,
+       "B (non-reserve adv.)": 0.99726,
+       "C (emerging)": 0.994698,
+       "D (developing)": 0.989368
+      },
+      "gap_per_u": 5.108661943271553
+     },
+     "0.02": {
+      "world_price": 1.74673,
+      "runaway": false,
+      "inflation_peak": 0.09741299999999997,
+      "inflation_final": 0.021268708857177465,
+      "gap_max": 0.10219709439633573,
+      "insolvent_blocs": 1,
+      "first_default_year": 29.0,
+      "demand_share_solvent": 0.8675613459372092,
+      "real_value": {
+       "A (reserve)": 0.998123,
+       "B (non-reserve adv.)": 0.999044,
+       "C (emerging)": 0.994522,
+       "D (developing)": 0.967435
+      },
+      "gap_per_u": 5.109854719816786
+     },
+     "0.03": {
+      "world_price": 2.883097,
+      "runaway": false,
+      "inflation_peak": 0.14895199999999997,
+      "inflation_final": 0.07232501475652553,
+      "gap_max": 0.15334931653903983,
+      "insolvent_blocs": 1,
+      "first_default_year": 25.0,
+      "demand_share_solvent": 0.8775297673904229,
+      "real_value": {
+       "A (reserve)": 0.997053,
+       "B (non-reserve adv.)": 0.99741,
+       "C (emerging)": 0.99129,
+       "D (developing)": 0.963375
+      },
+      "gap_per_u": 5.1116438846346615
+     }
+    },
+    "clt": {
+     "0": {
+      "world_price": 0.999986,
+      "runaway": false,
+      "inflation_peak": 0.0,
+      "inflation_final": -5.000045000369546e-06,
+      "gap_max": 0.0,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.0,
+       "B (non-reserve adv.)": 1.0,
+       "C (emerging)": 1.0,
+       "D (developing)": 1.0
+      },
+      "gap_per_u": null
+     },
+     "0.0025": {
+      "world_price": 1.018695,
+      "runaway": false,
+      "inflation_peak": 0.0032410000000000494,
+      "inflation_final": 0.0001885119631459542,
+      "gap_max": 0.003524654691190232,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000747,
+       "B (non-reserve adv.)": 0.999973,
+       "C (emerging)": 0.996843,
+       "D (developing)": 0.995311
+      },
+      "gap_per_u": 1.4098618764760928
+     },
+     "0.005": {
+      "world_price": 1.038438,
+      "runaway": false,
+      "inflation_peak": 0.006485999999999992,
+      "inflation_final": 0.00041907393331230836,
+      "gap_max": 0.007031417734201684,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 1.000121,
+       "B (non-reserve adv.)": 0.99929,
+       "C (emerging)": 0.996535,
+       "D (developing)": 0.994935
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.0075": {
+      "world_price": 1.059253,
+      "runaway": false,
+      "inflation_peak": 0.00973500000000005,
+      "inflation_final": 0.0006990939175994804,
+      "gap_max": 0.010556072425391916,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.999482,
+       "B (non-reserve adv.)": 0.998591,
+       "C (emerging)": 0.996239,
+       "D (developing)": 0.994544
+      },
+      "gap_per_u": 1.407476323385589
+     },
+     "0.01": {
+      "world_price": 1.081216,
+      "runaway": false,
+      "inflation_peak": 0.012988,
+      "inflation_final": 0.0010406520925994034,
+      "gap_max": 0.014062835468403367,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.998828,
+       "B (non-reserve adv.)": 0.997873,
+       "C (emerging)": 0.995944,
+       "D (developing)": 0.994138
+      },
+      "gap_per_u": 1.4062835468403367
+     },
+     "0.015": {
+      "world_price": 1.128593,
+      "runaway": false,
+      "inflation_peak": 0.01950699999999994,
+      "inflation_final": 0.0018873167167789973,
+      "gap_max": 0.021058469906247934,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.997501,
+       "B (non-reserve adv.)": 0.997066,
+       "C (emerging)": 0.995351,
+       "D (developing)": 0.993284
+      },
+      "gap_per_u": 1.4038979937498623
+     },
+     "0.02": {
+      "world_price": 1.180456,
+      "runaway": false,
+      "inflation_peak": 0.0260419999999999,
+      "inflation_final": 0.0029695121588566575,
+      "gap_max": 0.02803621269591372,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.996791,
+       "B (non-reserve adv.)": 0.996555,
+       "C (emerging)": 0.994766,
+       "D (developing)": 0.992344
+      },
+      "gap_per_u": 1.401810634795686
+     },
+     "0.03": {
+      "world_price": 1.298225,
+      "runaway": false,
+      "inflation_peak": 0.039164999999999894,
+      "inflation_final": 0.0053324494962205815,
+      "gap_max": 0.041938023330709395,
+      "insolvent_blocs": 0,
+      "first_default_year": null,
+      "demand_share_solvent": 1.0,
+      "real_value": {
+       "A (reserve)": 0.995857,
+       "B (non-reserve adv.)": 0.995761,
+       "C (emerging)": 0.993613,
+       "D (developing)": 0.98983
+      },
+      "gap_per_u": 1.3979341110236465
+     }
+    }
+   }
+  }
+ }
+}
