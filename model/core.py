@@ -556,7 +556,13 @@ def _run(blocs: Sequence[Bloc], g: G,
                                "capacity": round(world.capacity, 6),
                                "demand": round(sum(real_imports), 6),
                                "demand_solvent": round(sum(live), 6),
-                               "insolvent": sum(1 for st in S if not st["alive"])})
+                               "insolvent": sum(1 for st in S if not st["alive"]),
+                               # Per bloc as well as summed: the world total
+                               # answers what pressure reaches the world
+                               # market, but comparing modalities needs to
+                               # know which bloc generated it.
+                               **{f"imports_{i}": round(real_imports[i], 6)
+                                  for i in range(N)}})
         if step == STEPS:
             break
 

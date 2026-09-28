@@ -1,0 +1,2035 @@
+{
+ "grid_steps": 5,
+ "tolerance": 0.1,
+ "floor": 0.85,
+ "u_candidates": [
+  0.0,
+  0.01,
+  0.02,
+  0.04,
+  0.06,
+  0.08,
+  0.12
+ ],
+ "errors": [],
+ "automation_0.0": {
+  "ubi": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.015275,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.21678052066115702,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.011915,
+    "need_fixed_point": 0.12,
+    "baseline_rationing": 0.09663238842975207,
+    "rationing_at_fixed_point": 0.02251380991735537
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.013277,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.06420655371900827,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.02939164462809917
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0004915123966942149,
+    "rationing_at_fixed_point": 0.06202251239669422
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0012657272727272725
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011838,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.02847285950413223
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.012113,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.009100438016528926
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011865,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ],
+  "targeted": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.015275,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.21678052066115702,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.011915,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.09663238842975207,
+    "rationing_at_fixed_point": 0.06717238016528926
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.013277,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.06420655371900827,
+    "rationing_at_fixed_point": 0.11023137190082645
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.012052190082644628
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0004915123966942149,
+    "rationing_at_fixed_point": 0.01969767768595041
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0013308842975206612
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011838,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.012113,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011865,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ],
+  "voucher": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.015275,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.21678052066115702,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.011915,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.09663238842975207,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.013277,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.06420655371900827,
+    "rationing_at_fixed_point": 0.11966752892561983
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.01606195867768595
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0004915123966942149,
+    "rationing_at_fixed_point": 0.028089793388429752
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0019161487603305786
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011838,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 9.308264462809918e-05
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.012113,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011865,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ],
+  "clt": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.015275,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.21678052066115702,
+    "rationing_at_fixed_point": 0.180499652892562
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.011915,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.09663238842975207,
+    "rationing_at_fixed_point": 0.09570036363636364
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.013277,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.06420655371900827,
+    "rationing_at_fixed_point": 0.08729466115702479
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0023585206611570248
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0004915123966942149,
+    "rationing_at_fixed_point": 0.004169074380165289
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011838,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.012113,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.011865,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.0118,
+    "need_fixed_point": 0.02,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ]
+ },
+ "automation_0.4": {
+  "ubi": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.057818,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.11885878512396694,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.049323,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.045056652892561985,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.034994,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030653,
+    "need_fixed_point": 0.12,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030414,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.034213,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.05991311570247934,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031466,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.004347330578512397,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030804,
+    "need_fixed_point": 0.12,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0005083388429752067
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030448,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031736,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.011604669421487602,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031054,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0004058429752066116,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030607,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030375,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.031897,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.031188,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030718,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030456,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030378,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.032307,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.031491,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030924,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030574,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.030417,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ],
+  "targeted": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.057818,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.11885878512396694,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.049323,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.045056652892561985,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.034994,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030653,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030414,
+    "need_fixed_point": 0.08,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.034213,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.05991311570247934,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031466,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.004347330578512397,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030804,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030448,
+    "need_fixed_point": 0.12,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031736,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.011604669421487602,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031054,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0004058429752066116,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030607,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030375,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.031897,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.08074481818181818
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.031188,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.014096322314049586
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030718,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030456,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030378,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.032307,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.05212293388429752
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.031491,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030924,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030574,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.030417,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ],
+  "voucher": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.057818,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.11885878512396694,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.049323,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.045056652892561985,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.034994,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030653,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030414,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.034213,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.05991311570247934,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031466,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.004347330578512397,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030804,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030448,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031736,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.011604669421487602,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031054,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0004058429752066116,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.030607,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030375,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.031897,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.031188,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030718,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030456,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030378,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.032307,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "no_fixed_point",
+    "need_static": 0.031491,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030924,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030574,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.030417,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ],
+  "clt": [
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.057818,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.11885878512396694,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.049323,
+    "need_fixed_point": null,
+    "baseline_rationing": 0.045056652892561985,
+    "rationing_at_fixed_point": null
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.034994,
+    "need_fixed_point": 0.06,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030653,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.0,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030414,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.034213,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.05991311570247934,
+    "rationing_at_fixed_point": 0.09913225619834712
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031466,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.004347330578512397,
+    "rationing_at_fixed_point": 0.00811998347107438
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030804,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030448,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.25,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031736,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.011604669421487602,
+    "rationing_at_fixed_point": 0.04007619834710743
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "already_constrained",
+    "need_static": 0.031054,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0004058429752066116,
+    "rationing_at_fixed_point": 0.0024100165289256195
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030607,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030375,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.5,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030349,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.031897,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.012981578512396693
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.031188,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030718,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030456,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 0.75,
+    "self_sufficiency": 1.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030378,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.0,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.032307,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.25,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.031491,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.5,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030924,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 0.75,
+    "reserve": false,
+    "status": "feasible",
+    "need_static": 0.030574,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   },
+   {
+    "credit": 1.0,
+    "self_sufficiency": 1.0,
+    "reserve": true,
+    "status": "feasible",
+    "need_static": 0.030417,
+    "need_fixed_point": 0.04,
+    "baseline_rationing": 0.0,
+    "rationing_at_fixed_point": 0.0
+   }
+  ]
+ }
+}

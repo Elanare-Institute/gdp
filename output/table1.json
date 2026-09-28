@@ -1,0 +1,69 @@
+{
+ "u_ubi": 0.02,
+ "bloc": "D (developing)",
+ "year": 30,
+ "indexation": "cpi_indexed",
+ "automation": 0.0,
+ "rows": {
+  "none": {
+   "fiscal": 0.0,
+   "imports": 0.459663,
+   "e_start": 1.00949,
+   "e": 1.7886,
+   "food": 191.25738471034302,
+   "housing": 197.42072111207648,
+   "budget": 2.18424,
+   "size": null,
+   "import_index": 100.0,
+   "depreciation": 77.2
+  },
+  "ubi": {
+   "fiscal": 0.02,
+   "imports": 0.427789,
+   "e_start": 1.00949,
+   "e": 3.36948,
+   "food": 149.7141867313355,
+   "housing": 136.6899941236177,
+   "budget": 1.709514,
+   "size": 0.02,
+   "import_index": 93.1,
+   "depreciation": 233.8
+  },
+  "targeted": {
+   "fiscal": 0.009999999999999818,
+   "imports": 0.458649,
+   "e_start": 1.00949,
+   "e": 2.29924,
+   "food": 180.93279057682312,
+   "housing": 190.1330199262781,
+   "budget": 2.230411,
+   "size": 0.009999999999999818,
+   "import_index": 99.8,
+   "depreciation": 127.8
+  },
+  "voucher": {
+   "fiscal": 0.009999999999999818,
+   "imports": 0.464811,
+   "e_start": 1.00949,
+   "e": 2.58521,
+   "food": 170.82539407587043,
+   "housing": 175.61301351567926,
+   "budget": 2.016142,
+   "size": 0.009999999999999818,
+   "import_index": 101.1,
+   "depreciation": 156.1
+  },
+  "clt": {
+   "fiscal": 0.0035676628943696375,
+   "imports": 0.466422,
+   "e_start": 1.00949,
+   "e": 1.91101,
+   "food": 188.6980344407723,
+   "housing": 198.87297240362332,
+   "budget": 2.254376,
+   "size": 0.00419725046396428,
+   "import_index": 101.5,
+   "depreciation": 89.3
+  }
+ }
+}
